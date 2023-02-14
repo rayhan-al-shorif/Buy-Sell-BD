@@ -15,8 +15,12 @@ class DatabaseSeeder extends Seeder
     {
         // run the seed
         $this->call([
-            UserSeeder::class,
-            ColorSeeder::class
+            // UserSeeder::class,
+            HeaderFooterSeeder::class,
+            AboutSeeder::class,
+            ColorSeeder::class,
+            SliderSeeder::class,
+            ServiceSeeder::class,
         ]);
     }
 }

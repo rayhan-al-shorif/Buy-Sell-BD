@@ -103,6 +103,16 @@
 /* Portrait tablets and small desktops */
 
 @media (min-width: 768px) and (max-width: 991px) {
+
+    .col-md-3{
+         width: 30%!important;
+    }
+
+    .about-section>.row>.col-lg-7 {
+        margin: 0 25px 0 25px !important;
+        text-align: justify!important;
+        font-size: 16px;
+    }
     
     .siteLogoImageBox {
         height: 30px;
@@ -167,6 +177,14 @@
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
+    .col-md-3{
+         width: 45%!important;
+    }
+    .about-section>.row>.col-lg-7 {
+        margin: 0 25px 0 25px !important;
+        text-align: justify!important;
+        font-size: 16px;
+    }
     
      .siteLogoImageBox {
         height: 20px;
@@ -233,6 +251,12 @@
 }
 
 @media screen and (max-width: 630px) {
+
+    .about-section>.row>.col-lg-7 {
+        margin: 0 25px 0 25px !important;
+        text-align: justify!important;
+        font-size: 16px;
+    }
     .serviceContainer .owl-nav {
         width: 120%!important;
     }
@@ -312,6 +336,10 @@
 
 @media (max-width: 520px)
 {
+   
+    .col-md-3{
+         width: 50%!important;
+    }
      /* Service */
     .serviceImageBox {
         width: 100%;
@@ -331,6 +359,9 @@
 }
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
+    .col-md-3{
+         width: 75%!important;
+    }
     .siteLogoImageBox {
         height: 34px;
         margin-top: 11px;
@@ -422,7 +453,9 @@
 
 @media (min-width: 320px) and (max-width: 420px) {
     
-
+    .col-md-3{
+         width: 100%!important;
+    }
 
     .siteLogoImageBox {
         height: 56px;

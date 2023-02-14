@@ -45,3 +45,6 @@
 .body-dark .owl-next:hover {
     color: #ffffff !important;
 }
+.body-dark>h5{
+    color: #ffffff !important;
+}
