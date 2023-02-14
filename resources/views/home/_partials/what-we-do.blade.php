@@ -1,7 +1,7 @@
 <div class="site-section" id="whatWeDo">
     <div class="whatWeDoContainer">
         <div class="row justify-content-center">
-            <div class="col-md-7 text-center">
+            <div class="col-md-12 text-center">
                 <span class="sub-title">What We Do </span>
                 <h2 class="font-weight-bold text-black mb-5 title">What We Do
                     <style type="text/css">
@@ -61,16 +61,22 @@
                         </g>
                     </svg>
                 </h2>
-                <p class="mb-5">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Eligendi, explicabo, quasi. Magni deserunt sunt labore.
-                </p>
             </div>
         </div>
-        {{-- <div class="slider-dots justify-content-center d-flex mt-5 d-none">
-            @foreach ($whatWeDos as $key => $whatWeDo)
-            <span class="nav-{{$whatWeDo->id}}"></span>
-            @endforeach
-        </div> --}}
+    </div>
+</div>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-3">
+            <div class="card whatwedo" style="width: auto;">
+              <img src="https://picsum.photos/200/300" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title py-2">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card
+                  title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+        </div>
     </div>
 </div>

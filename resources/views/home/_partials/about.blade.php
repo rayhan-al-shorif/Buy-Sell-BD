@@ -16,13 +16,11 @@
             <p class="mb-4 description">
                 {!! Str::limit($about->description,2000) !!}
             </p>
-            @if(strlen($about->description) > 2000)
+            @endif
             <p>
                 <span class="btn btn-primary btn-lg rounded-0" data-toggle="modal" data-target="#readMoreAboutUs">Read
-                    More About Us</span>
+                        More About Us</span>
             </p>
-            @endif
-            @endif
         </div>
     </div>
 </div>

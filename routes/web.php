@@ -35,8 +35,9 @@ Route::get('/cmd', function () {
     // Artisan::call('optimize');
     // Artisan::call('route:cache');
     // // one role back
-    // Artisan::call('migrate:rollback --step=1');
-    // Artisan::call('migrate');
+    Artisan::call('migrate:rollback --step=1');
+    Artisan::call('migrate');
+    dd("ok");
     // Artisan::call('storage:link');
 
 

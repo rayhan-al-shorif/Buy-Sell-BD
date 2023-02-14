@@ -77,22 +77,31 @@
                 </li>
                 <li class="nav-item">
                     <a href="{{ route('user.header.index')}}"
-                        class="nav-link @if (request()->is('user/header-footer*')) active @endif">
-                        <i class="nav-icon fas fa-header"></i>
-                        <p>
-                            Header & Footer
-                        </p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="{{ route('user.slider.index')}}"
-                        class="nav-link @if (request()->is('user/slider*')) active @endif">
-                        <i class="nav-icon fas fa-code"></i>
-                        <p>
-                            Slider
-                        </p>
-                    </a>
-                </li>
+                    class="nav-link @if (request()->is('user/header-footer*')) active @endif">
+                    <i class="nav-icon fas fa-header"></i>
+                    <p>
+                        Header & Footer
+                    </p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="{{ route('user.slider.index')}}"
+                    class="nav-link @if (request()->is('user/slider*')) active @endif">
+                    <i class="nav-icon fas fa-code"></i>
+                    <p>
+                        Slider
+                    </p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="{{ route('user.what-we-do.index')}}"
+                    class="nav-link @if (request()->is('user/color*')) active @endif">
+                    <i class="nav-icon fa fa-question"></i>
+                    <p>
+                        What We Do?
+                    </p>
+                </a>
+            </li>
                 <li class="nav-item">
                     <a href="{{ route('user.about.index')}}"
                         class="nav-link @if (request()->is('user/about*')) active @endif">
