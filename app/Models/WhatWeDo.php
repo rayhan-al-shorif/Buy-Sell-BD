@@ -13,5 +13,6 @@ class WhatWeDo extends Model
         'title',
         'image',
         'description',
+        'status'
     ];
 }

@@ -79,6 +79,8 @@ function handleCheckBtn(){
             if (!isChecked){
                 $("#checkbox-all").removeClass("checked");
                 return false;
+            }else{
+                $("#checkbox-all").addClass("checked");
             }
         });
     });
