@@ -2,6 +2,7 @@ $(document).ready(function () {
     handleAddBtn();
     handleEditBtn();
     handleDeleteBtn();
+    handleCheckBtn();
 });
 function handleAddBtn(){
     $('.addBtn').on('click', function () {
@@ -54,4 +55,31 @@ function handleDeleteBtn(){
         }
         })
     })
+}
+
+function handleCheckBtn(){
+
+    $("#checkbox-all").on("change", function(){
+        $(this).toggleClass("checked");
+        if ($(this).hasClass("checked")) {
+            $(".sliderTableBody tr td .check").each(function(){
+                $(this).find("input").addClass('checked');
+            });
+        }else{
+            $(".sliderTableBody tr td").find(".check").each(function () {
+                $(this).find("input").removeClass('checked');
+            });
+        }
+    });
+
+    $(".checkbox").on('change', function(){
+        $(this).toggleClass("checked");
+        $(".sliderTableBody tr td .check").each(function () {
+            let isChecked = $(this).find("input").hasClass('checked');
+            if (!isChecked){
+                $("#checkbox-all").removeClass("checked");
+                return false;
+            }
+        });
+    });
 }
