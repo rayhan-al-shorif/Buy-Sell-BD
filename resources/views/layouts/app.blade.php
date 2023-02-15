@@ -13,7 +13,7 @@
     $headerFavicon = $headerAndFooter ? $headerAndFooter->favicon : asset('dist/images/favicon.png');
     $headerTitle = $headerAndFooter ? $headerAndFooter->project_title : env('APP_NAME');
     @endphp
-    <title>{{ ucfirst($headerTitle) }}</title>
+     <title>Buy Sell BD</title>
     <link rel="icon" href="{{$headerFavicon}}" type="image/*">
 
     <!-- Scripts -->
