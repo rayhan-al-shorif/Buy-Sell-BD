@@ -61,8 +61,8 @@
                             <tr>
                                 <th style="width: 10px">
                                     <div class="check">
-                                        <input type="checkbox" id="checkbox" name="checkbox" />
-                                        <label for="checkbox"></label>
+                                        <input type="checkbox" id="checkbox-all" name="checkbox" />
+                                        <label for="checkbox-all"></label>
                                     </div>
                                 </th>
                                 <th style="width: 10px">#</th>
@@ -117,54 +117,5 @@
 @endsection
 
 @push('js')
-<script>
-    $(document).ready(function () {
-        $('.addBtn').on('click', function () {
-            $('#for_update').html('');
-            $('.slider-title').text('Add New Slider');
-            $('#title').val('');
-            $('#description').val('');
-        });
-        $('.editBtn').on('click', function () {
-            tr = $(this).closest('tr');
-            var id = tr.attr('id');
-            $('#for_update').html(`<input type="hidden" name="slider_id" value="${id}">`);
-            $('.slider-title').text('Update Slider');
-            $('#title').val(tr.find('td:eq(2)').text().trim());
-            $('#description').val(tr.find('td:eq(3)').text().trim());
-        });
-
-        $('.deleteBtn').on('click',function(){
-            tr = $(this).closest('tr');
-            var id = tr.attr('id');
-            Swal.fire({
-            title: 'Are you sure?',
-            text: "You won't be able to revert this!",
-            icon: 'warning',
-            showCancelButton: true,
-            confirmButtonColor: '#3085d6',
-            cancelButtonColor: '#d33',
-            confirmButtonText: 'Yes, delete it!'
-            }).then((result) => {
-            if (result.isConfirmed) {
-                axios.delete(`/user/slider/${id}/delete/`)
-                .then(function (response) {
-                    tr.remove();
-                    Swal.fire(
-                    'Deleted!',
-                    'Your file has been deleted.',
-                    'success'
-                    )
-                })
-            }else{
-            Swal.fire(
-            'Cancelled',
-            'Your imaginary file is safe :)',
-            'error'
-            )
-            }
-            })
-        })
-    });
-</script>
+<script src="{{ asset('js/admin/slider.js') }}"></script>
 @endpush
