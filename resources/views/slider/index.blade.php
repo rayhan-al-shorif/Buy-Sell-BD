@@ -1,5 +1,49 @@
 @extends('layouts.app')
 
+@section('head')
+<style>
+.check {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.check input[type="checkbox"] {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.check label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+.check label:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+.check input[type="checkbox"]:checked + label:after {
+  display: block;
+  top: 4px;
+  left: 8px;
+  width: 4px;
+  height: 8px;
+  border: solid #000;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+</style>
+
+@endsection
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
@@ -15,6 +59,12 @@
                     <table class="table table-striped projects" id="sliderTable">
                         <thead>
                             <tr>
+                                <th style="width: 10px">
+                                    <div class="check">
+                                        <input type="checkbox" id="checkbox" name="checkbox" />
+                                        <label for="checkbox"></label>
+                                    </div>
+                                </th>
                                 <th style="width: 10px">#</th>
                                 <th>Image</th>
                                 <th>Title</th>
@@ -30,6 +80,12 @@
                             @endif
                             @foreach ($sliders as $slider)
                             <tr id="{{$slider->id}}">
+                                <td>
+                                    <div class="check">
+                                        <input type="checkbox" id="checkbox-{{$slider->id}}" name="checkbox" />
+                                        <label for="checkbox-{{$slider->id}}"></label>
+                                    </div>
+                                </td>
                                 <td>{{$loop->index+1}}</td>
                                 <td>
                                     <img src="{{asset($slider->image)}}" alt="" width="100px">
