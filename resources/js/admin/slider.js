@@ -70,6 +70,7 @@ function handleCheckBtn(){
                 $(this).find("input").removeClass('checked');
             });
         }
+        isCheckedActionBtn();
     });
 
     $(".checkbox").on('change', function(){
@@ -83,5 +84,15 @@ function handleCheckBtn(){
                 $("#checkbox-all").addClass("checked");
             }
         });
+        isCheckedActionBtn();
     });
+}
+
+function isCheckedActionBtn(){
+    let isChecked = $(".checkbox").hasClass("checked");
+    if(!isChecked){
+        $(".actionBtn").addClass("d-none");
+    }else{
+        $(".actionBtn").removeClass("d-none");
+    }
 }

@@ -10,18 +10,12 @@
             <div class="card">
                 <div class="card-header">
                     <h2 class="card-title">Slider</h2>
-
-                    <div class="btn-group float-right">
-                        <button type="button" class="btn btn-sm btn-outline-info">Action</button>
-                        <button type="button" class="btn btn-sm btn-outline-info dropdown-toggle dropdown-icon" data-toggle="dropdown" aria-expanded="false">
-                            <span class="sr-only">Toggle Dropdown</span>
-                        </button>
+                    <div class="btn-group float-right actionBtn d-none ml-2">
+                        <button type="button" class="btn btn-sm btn-outline-danger dropdown-toggle"data-toggle="dropdown" aria-expanded="false">Action</button>
                         <div class="dropdown-menu" role="menu" style="">
-                            <a class="dropdown-item" href="#">Action</a>
-                             <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Separated link</a>
+                            <a class="dropdown-item" href="#">Active</a>
+                            <a class="dropdown-item" href="#">Inactive</a>
+                            <a class="dropdown-item" href="#">Delete</a>
                         </div>
                     </div>
                     <a href="#" class="btn btn-sm btn-outline-info float-right addBtn" data-toggle="modal"
@@ -40,6 +34,7 @@
                                 <th>Image</th>
                                 <th>Title</th>
                                 <th>Description</th>
+                                <th>Status</th>
                                 <th class="w-20">Actions</th>
                             </tr>
                         </thead>
@@ -64,6 +59,14 @@
                                     {{$slider->title}}
                                 </td>
                                 <td>{{$slider->description}}</td>
+                                <td>
+                                    @if($slider->status == "active")
+                                    <span class="badge badge-success text-capitalize">{{$slider->status}}</span>
+                                    @else
+                                    <span class="badge badge-danger text-capitalize">{{$slider->status}}</span>
+                                    @endif
+
+                                </td>
                                 <td class="w-20">
                                     <span class="btn btn-info btn-sm editBtn" data-toggle="modal"
                                         data-target="#modal-add-and-update-slider">
