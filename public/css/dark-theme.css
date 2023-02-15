@@ -48,3 +48,6 @@
 .body-dark>h5{
     color: #ffffff !important;
 }
+.body-dark>.MsoNormal>span{
+    color: #ffffff !important;
+}

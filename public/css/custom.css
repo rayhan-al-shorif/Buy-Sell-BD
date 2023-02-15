@@ -51,3 +51,19 @@
     margin: 10px;
     text-align: center;
 }
+.col-md-2 {
+    position: relative;
+    width: 15%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+.owl-carousel-border{
+     box-shadow: #ccc 5px 8px 15px;
+    border: #ccc solid 1px;
+    padding: 10px;
+    border-radius: 8px;
+}
