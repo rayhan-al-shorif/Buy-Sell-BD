@@ -15,6 +15,7 @@
 @include('home._partials.contact')
 @include('home._partials.footer')
 @include('home._partials.settings')
+@include('home._partials.social')
 @endsection
 @push('scripts')
 <script src="{{ asset('js/home.js') }}"></script>
