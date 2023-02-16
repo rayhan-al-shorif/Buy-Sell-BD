@@ -200,3 +200,10 @@ button,
             transform: translate(0px, 0px);
         }
     }
+
+.owl-carousel-border {
+    box-shadow: #ccc 5px 8px 15px;
+    border: #ccc solid 1px;
+    padding: 10px;
+    border-radius: 8px;
+}
