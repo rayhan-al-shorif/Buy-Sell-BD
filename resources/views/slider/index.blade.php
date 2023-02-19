@@ -1,5 +1,8 @@
 @extends('layouts.app')
 
+@section('head')
+
+@endsection
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
@@ -7,22 +10,35 @@
             <div class="card">
                 <div class="card-header">
                     <h2 class="card-title">Slider</h2>
+                    <div class="btn-group float-right actionBtn d-none ml-2">
+                        <button type="button" class="btn btn-sm btn-outline-danger dropdown-toggle"data-toggle="dropdown" aria-expanded="false">Action</button>
+                        <div class="dropdown-menu" role="menu" style="">
+                            <span class="dropdown-item btn btn-sm activeBtn" href="#">Active</span>
+                            <span class="dropdown-item btn btn-sm inActiveBtn" href="#">Inactive</span>
+                            <span class="dropdown-item btn btn-sm multiDeleteBtn" href="#">Delete</span>
+                        </div>
+                    </div>
                     <a href="#" class="btn btn-sm btn-outline-info float-right addBtn" data-toggle="modal"
                         data-target="#modal-add-and-update-slider">+ Add</a>
                 </div>
-
                 <div class="card-body">
                     <table class="table table-striped projects" id="sliderTable">
                         <thead>
                             <tr>
+                                <th style="width: 10px">
+                                    <div class="check">
+                                        <input type="checkbox" id="checkbox-all" name="checkbox" />
+                                    </div>
+                                </th>
                                 <th style="width: 10px">#</th>
                                 <th>Image</th>
                                 <th>Title</th>
                                 <th>Description</th>
+                                <th>Status</th>
                                 <th class="w-20">Actions</th>
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody class="sliderTableBody">
                             @if (count($sliders) == 0)
                             <tr>
                                 <td colspan="5" class="text-center">No data found</td>
@@ -30,6 +46,11 @@
                             @endif
                             @foreach ($sliders as $slider)
                             <tr id="{{$slider->id}}">
+                                <td>
+                                    <div class="check">
+                                        <input type="checkbox" id="checkbox-{{$slider->id}}" name="checkbox" class="checkbox" />
+                                    </div>
+                                </td>
                                 <td>{{$loop->index+1}}</td>
                                 <td>
                                     <img src="{{asset($slider->image)}}" alt="" width="100px">
@@ -38,6 +59,14 @@
                                     {{$slider->title}}
                                 </td>
                                 <td>{{$slider->description}}</td>
+                                <td>
+                                    @if($slider->status == "active")
+                                    <span class="badge badge-success text-capitalize">{{$slider->status}}</span>
+                                    @else
+                                    <span class="badge badge-danger text-capitalize">{{$slider->status}}</span>
+                                    @endif
+
+                                </td>
                                 <td class="w-20">
                                     <span class="btn btn-info btn-sm editBtn" data-toggle="modal"
                                         data-target="#modal-add-and-update-slider">
@@ -61,54 +90,5 @@
 @endsection
 
 @push('js')
-<script>
-    $(document).ready(function () {
-        $('.addBtn').on('click', function () {
-            $('#for_update').html('');
-            $('.slider-title').text('Add New Slider');
-            $('#title').val('');
-            $('#description').val('');
-        });
-        $('.editBtn').on('click', function () {
-            tr = $(this).closest('tr');
-            var id = tr.attr('id');
-            $('#for_update').html(`<input type="hidden" name="slider_id" value="${id}">`);
-            $('.slider-title').text('Update Slider');
-            $('#title').val(tr.find('td:eq(2)').text().trim());
-            $('#description').val(tr.find('td:eq(3)').text().trim());
-        });
-
-        $('.deleteBtn').on('click',function(){
-            tr = $(this).closest('tr');
-            var id = tr.attr('id');
-            Swal.fire({
-            title: 'Are you sure?',
-            text: "You won't be able to revert this!",
-            icon: 'warning',
-            showCancelButton: true,
-            confirmButtonColor: '#3085d6',
-            cancelButtonColor: '#d33',
-            confirmButtonText: 'Yes, delete it!'
-            }).then((result) => {
-            if (result.isConfirmed) {
-                axios.delete(`/user/slider/${id}/delete/`)
-                .then(function (response) {
-                    tr.remove();
-                    Swal.fire(
-                    'Deleted!',
-                    'Your file has been deleted.',
-                    'success'
-                    )
-                })
-            }else{
-            Swal.fire(
-            'Cancelled',
-            'Your imaginary file is safe :)',
-            'error'
-            )
-            }
-            })
-        })
-    });
-</script>
+<script src="{{ asset('js/admin/slider.js') }}"></script>
 @endpush

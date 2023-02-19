@@ -18,10 +18,9 @@ class CreateWhatWeDosTable extends Migration
             $table->string('title')->nullable();
             $table->string('image');
             $table->longText('description')->nullable();
+            $table->string('status')->default('active');
             $table->timestamps();
         });
-
-        
     }
 
     /**
