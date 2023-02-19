@@ -17,21 +17,25 @@ class ServiceSeeder extends Seeder
             'title' => 'Membership',
             'description' => '',
             'image' => '/storage/images/service/1675855459.jpg',
+            'status' => 'active',
         ]);
         Service::create([
             'title' => 'License',
             'description' => '',
             'image' => '/storage/images/service/1675855470.jpg',
+            'status' => 'active',
         ]);
         Service::create([
             'title' => 'Property',
             'description' => '',
             'image' => '/storage/images/service/1675855480.png',
+            'status' => 'active',
         ]);
         Service::create([
             'title' => 'Collectables',
             'description' => '',
             'image' => '/storage/images/service/1675855486.png',
+            'status' => 'active',
         ]);
     }
 }

@@ -1,53 +1,6 @@
 @extends('layouts.app')
 
 @section('head')
-<style>
-input[type="checkbox"] {
-  height: 18px;
-  width: 18px;
-  margin: 0;
-  padding: 0;
-  opacity: 1;
-  appearance: none;
-  border: 1px solid #3b489a;
-  border-radius: 3px;
-  background: #fff;
-  position: relative;
-  margin-right: 10px;
-  cursor: pointer;
-}
-.checked{
-  border: 1px solid #3b489a!important;
-  background: #3b489a!important;
-}
-.checked:before,
-.checked:after
-{
-  content: "";
-  position: absolute;
-  height: 2px;
-  background: #fff;
-}
-
-
-.checked:before {
-  width: 6px;
-  top: 9px;
-  left: 3px;
-  transform: rotate(44deg);
-}
-
-.checked:after {
-  width: 10px;
-  top: 7px;
-  left: 5px;
-  transform: rotate(-55deg);
-}
-
-input[type="checkbox"]:focus {
-  outline: none;
-}
-</style>
 
 @endsection
 @section('content')
@@ -57,10 +10,17 @@ input[type="checkbox"]:focus {
             <div class="card">
                 <div class="card-header">
                     <h2 class="card-title">Slider</h2>
+                    <div class="btn-group float-right actionBtn d-none ml-2">
+                        <button type="button" class="btn btn-sm btn-outline-danger dropdown-toggle"data-toggle="dropdown" aria-expanded="false">Action</button>
+                        <div class="dropdown-menu" role="menu" style="">
+                            <span class="dropdown-item btn btn-sm activeBtn" href="#">Active</span>
+                            <span class="dropdown-item btn btn-sm inActiveBtn" href="#">Inactive</span>
+                            <span class="dropdown-item btn btn-sm multiDeleteBtn" href="#">Delete</span>
+                        </div>
+                    </div>
                     <a href="#" class="btn btn-sm btn-outline-info float-right addBtn" data-toggle="modal"
                         data-target="#modal-add-and-update-slider">+ Add</a>
                 </div>
-
                 <div class="card-body">
                     <table class="table table-striped projects" id="sliderTable">
                         <thead>
@@ -74,6 +34,7 @@ input[type="checkbox"]:focus {
                                 <th>Image</th>
                                 <th>Title</th>
                                 <th>Description</th>
+                                <th>Status</th>
                                 <th class="w-20">Actions</th>
                             </tr>
                         </thead>
@@ -98,6 +59,14 @@ input[type="checkbox"]:focus {
                                     {{$slider->title}}
                                 </td>
                                 <td>{{$slider->description}}</td>
+                                <td>
+                                    @if($slider->status == "active")
+                                    <span class="badge badge-success text-capitalize">{{$slider->status}}</span>
+                                    @else
+                                    <span class="badge badge-danger text-capitalize">{{$slider->status}}</span>
+                                    @endif
+
+                                </td>
                                 <td class="w-20">
                                     <span class="btn btn-info btn-sm editBtn" data-toggle="modal"
                                         data-target="#modal-add-and-update-slider">
