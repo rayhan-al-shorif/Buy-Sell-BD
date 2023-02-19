@@ -57,7 +57,6 @@ class SliderController extends Controller
         return redirect()->route('user.slider.index');
     }
 
-
     public function delete($id)
     {
         $slider = Slider::find($id);
@@ -67,5 +66,9 @@ class SliderController extends Controller
         }
         $slider->delete();
         return $this->respondWithSuccess('Slider deleted successfully.');
+    }
+
+    public function multiActions(Request $request){
+        return $this->respondWithSuccess("Success", $request->all());
     }
 }

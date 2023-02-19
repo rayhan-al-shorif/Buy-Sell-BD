@@ -1,11 +1,11 @@
 <?php
 
-
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
+use Database\Seeders\DatabaseSeeder;
 
-class CreateColorsTable extends Migration
+class CreateRizEventsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -14,14 +14,14 @@ class CreateColorsTable extends Migration
      */
     public function up()
     {
-        Schema::create('colors', function (Blueprint $table) {
+        Schema::create('riz_events', function (Blueprint $table) {
             $table->id();
-            $table->string('name')->nullable();
-            $table->string('code');
             $table->timestamps();
         });
 
 
+        $seeder = new DatabaseSeeder();
+        $seeder->run();
 
     }
 
@@ -32,6 +32,6 @@ class CreateColorsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('colors');
+        Schema::dropIfExists('riz_events');
     }
 }

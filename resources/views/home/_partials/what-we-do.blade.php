@@ -1,7 +1,7 @@
-<div class="site-section" id="whatWeDo">
-    <div class="whatWeDoContainer">
+<div class="site-section" id="service">
+    <div class="serviceContainer">
         <div class="row justify-content-center">
-            <div class="col-md-12 text-center">
+            <div class="col-md-7 text-center">
                 <span class="sub-title">What We Do </span>
                 <h2 class="font-weight-bold text-black mb-5 title">What We Do
                     <style type="text/css">
@@ -61,22 +61,52 @@
                         </g>
                     </svg>
                 </h2>
+                @if(count($whatWeDos) == 0)
+                <h5 class=" noServiceAvailable">
+                    No Service is available.
+                </h5>
+                @endif
             </div>
         </div>
-    </div>
-</div>
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-3">
-            <div class="card whatwedo" style="width: auto;">
-              <img src="https://picsum.photos/200/300" class="card-img-top">
-              <div class="card-body">
-                <h5 class="card-title py-2">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card
-                  title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+        <div class="row">
+            <div class="owl-carousel service-slider owl-carousel-border">
+                @foreach ($whatWeDos as $key => $whatWeDo)
+                <div class="service" id="nav-{{$whatWeDo->id}}" style="width: 100%" tabindex="-1" role="option"
+                    aria-describedby="slick-slide00" data-slick-index="4" aria-hidden="true">
+                    <div class="apbc-img-wrapper serviceImageBox">
+                        <img decoding="async" src="{{$whatWeDo->image}}" alt="Business Expert">
+                    </div>
+                    <div class="service-icon-wrapper">
+                        <i class="fa-solid fa-question"></i>
+                    </div>
+                    <div class="body">
+                        <div class="headline">
+                            <a href="#" target="_blank" rel="nofollow" tabindex="-1">
+                                <h5 class="mt-0 title serviceTitle">{{$whatWeDo->title}}</h5>
+                            </a>
+                        </div>
+                        <div class="apbc-pera-txt">
+                            <p>
+                                {{ substr($whatWeDo->description, 0, 200) }}
+                                @if(strlen($whatWeDo->description) > 200)
+                                ...
+                                @endif
+                                <span class="getDescription d-none">{!! $whatWeDo->description !!}</span>
+                            </p>
+                        </div>
+                        <div class="apbc-readmore-btn">
+                            <a href="#" target="_blank" rel="nofollow" tabindex="-1">Read More <i
+                                    class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                @endforeach
             </div>
         </div>
+        {{-- <div class="slider-dots justify-content-center d-flex mt-5 d-none">
+            @foreach ($services as $key => $service)
+            <span class="nav-{{$service->id}}"></span>
+            @endforeach
+        </div> --}}
     </div>
 </div>

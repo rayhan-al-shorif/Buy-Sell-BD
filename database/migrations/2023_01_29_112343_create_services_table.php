@@ -18,6 +18,7 @@ class CreateServicesTable extends Migration
             $table->string('title');
             $table->string('image');
             $table->longText('description')->nullable();
+            $table->string('status')->default('active');
             $table->timestamps();
         });
     }

@@ -18,6 +18,7 @@ class CreateSlidersTable extends Migration
             $table->string('title')->default('No title');
             $table->string('description')->default('No description');
             $table->string('image');
+            $table->string('status')->default('active');
             $table->timestamps();
         });
     }

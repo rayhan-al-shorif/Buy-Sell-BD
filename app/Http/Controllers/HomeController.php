@@ -7,6 +7,7 @@ use App\Models\About;
 use App\Models\Color;
 use App\Models\HeaderAndFooter;
 use App\Models\Service;
+use App\Models\WhatWeDo;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
@@ -40,6 +41,7 @@ class HomeController extends Controller
         $services = Service::all();
         $headerAndFooter = HeaderAndFooter::first();
         $colors = Color::all();
+        $whatWeDos = WhatWeDo::all();
 
         if (!$about) {
             $about = new About();
@@ -47,7 +49,7 @@ class HomeController extends Controller
             $about->image = 'images/no-image.jpg';
             $about->save();
         }
-        return view('home.index', compact('headerAndFooter', 'sliders', 'about', 'services', 'colors'));
+        return view('home.index', compact('headerAndFooter', 'sliders', 'about', 'services', 'colors','whatWeDos'));
     }
 
 

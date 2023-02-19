@@ -16,7 +16,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="owl-carousel service-slider ">
+            <div class="owl-carousel service-slider owl-carousel-border">
                 @foreach ($services as $key => $service)
                 <div class="service" id="nav-{{$service->id}}" style="width: 100%" tabindex="-1" role="option"
                     aria-describedby="slick-slide00" data-slick-index="4" aria-hidden="true">
