@@ -25,7 +25,6 @@
 
     <!-- Styles -->
 
-    <link href="{{ asset('css/custom.css') }}" rel="stylesheet">
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -65,19 +64,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <script src="https://code.iconify.design/iconify-icon/1.0.3/iconify-icon.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <style>
-        .required::after {
-            content: " *";
-            color: red;
-            font-weight: bold;
-        }
 
-        .optional::after {
-            content: " (optional)";
-            color: #999;
-            font-weight: normal;
-        }
-    </style>
+    <link href="{{ asset('css/admin/import_all.css') }}" rel="stylesheet">
     @yield('head')
 </head>
 
