@@ -13,9 +13,9 @@
                     <div class="btn-group float-right actionBtn d-none ml-2">
                         <button type="button" class="btn btn-sm btn-outline-danger dropdown-toggle"data-toggle="dropdown" aria-expanded="false">Action</button>
                         <div class="dropdown-menu" role="menu" style="">
-                            <a class="dropdown-item" href="#">Active</a>
-                            <a class="dropdown-item" href="#">Inactive</a>
-                            <a class="dropdown-item" href="#">Delete</a>
+                            <span class="dropdown-item btn btn-sm activeBtn" href="#">Active</span>
+                            <span class="dropdown-item btn btn-sm inActiveBtn" href="#">Inactive</span>
+                            <span class="dropdown-item btn btn-sm multiDeleteBtn" href="#">Delete</span>
                         </div>
                     </div>
                     <a href="#" class="btn btn-sm btn-outline-info float-right addBtn" data-toggle="modal"

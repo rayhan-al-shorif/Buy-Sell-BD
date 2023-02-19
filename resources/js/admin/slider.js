@@ -3,6 +3,7 @@ $(document).ready(function () {
     handleEditBtn();
     handleDeleteBtn();
     handleCheckBtn();
+    handleMultiActionsBtn();
 });
 function handleAddBtn(){
     $('.addBtn').on('click', function () {
@@ -96,3 +97,106 @@ function isCheckedActionBtn(){
         $(".actionBtn").removeClass("d-none");
     }
 }
+
+function handleMultiActionsBtn(){
+    $(".activeBtn").on("click", function(){
+        var sliderIds = [];
+        $(".sliderTableBody tr td .check").each(function () {
+            let isChecked = $(this).find("input").hasClass('checked');
+            if (isChecked){
+                let trId = $(this).closest('tr').attr('id');
+                sliderIds.push(trId);
+            }
+        });
+        Swal.fire({
+            title: 'Are you sure?',
+            text: "You want to active those slides!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#1aa111',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Yes, active it!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                sendActions(sliderIds,'active');
+            } else {
+                Swal.fire(
+                    'Cancelled',
+                    'Your imaginary file is safe :)',
+                    'error'
+                )
+            }
+        })
+    });
+    $(".inActiveBtn").on("click", function(){
+        var sliderIds = [];
+        $(".sliderTableBody tr td .check").each(function () {
+            let isChecked = $(this).find("input").hasClass('checked');
+            if (isChecked){
+                let trId = $(this).closest('tr').attr('id');
+                sliderIds.push(trId);
+            }
+        });
+
+        Swal.fire({
+            title: 'Are you sure?',
+            text: "You want to inactive those slides!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#0938e0',
+            cancelButtonColor: '#c90835',
+            confirmButtonText: 'Yes, active it!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                sendActions(sliderIds,'inactive');
+            } else {
+                Swal.fire(
+                    'Cancelled',
+                    'Your imaginary file is safe :)',
+                    'error'
+                )
+            }
+        })
+    });
+    $(".multiDeleteBtn").on("click", function(){
+        var sliderIds = [];
+        $(".sliderTableBody tr td .check").each(function () {
+            let isChecked = $(this).find("input").hasClass('checked');
+            if (isChecked){
+                let trId = $(this).closest('tr').attr('id');
+                sliderIds.push(trId);
+            }
+        });
+        Swal.fire({
+            title: 'Are you sure?',
+            text: "You won't be able to revert this!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Yes, delete it!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                sendActions(sliderIds,'delete');
+            } else {
+                Swal.fire(
+                    'Cancelled',
+                    'Your imaginary file is safe :)',
+                    'error'
+                )
+            }
+        })
+    });
+}
+
+
+
+function sendActions(ids,actionName){
+    axios.post('/user/slider/multiple-actions',{
+        ids: ids,
+        action: actionName
+    }).then(function(response){
+        console.log(response.data.data);
+    });
+}
+

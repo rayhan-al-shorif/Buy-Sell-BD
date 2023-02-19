@@ -31,16 +31,12 @@
     <link href="https://cdn.jsdelivr.net/npm/icomoon@1.0.0/style.min.css" rel="stylesheet" />
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-
     <link rel="stylesheet" href="{{ asset('dist/css/style.css')}}" />
-    <link rel="stylesheet" href="{{ asset('css/setting.css')}}" />
     <script src="{{ asset('dist/js/script.js')}}"></script>
     <script src="{{ asset('dist/js/jquery-3.3.1.min.js')}}"></script>
     <script src="{{ asset('dist/js/jquery-ui.js')}}"></script>
-    <link rel="stylesheet" href="{{ asset('css/home.css')}}" />
-    <link rel="stylesheet" href="{{ asset('css/custom.css')}}" />
+    <link rel="stylesheet" href="{{ asset('css/web/home.css')}}" />
     @yield('head')
-
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
