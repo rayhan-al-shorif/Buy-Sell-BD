@@ -8,6 +8,7 @@
 
 @section('content')
 {{-- @include('home._partials.navbar') --}}
+@include('home._partials.navbar')
 {{-- @include('home._partials.slider') --}}
 @include('home._partials.about')
 @include('home._partials.what-we-do')

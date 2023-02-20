@@ -46,7 +46,7 @@
             <span class="sr-only">Loading...</span>
         </div>
     </div>
-    <div class="site-wrap" style="overflow-x: hidden;">
+    <div style="overflow-x: hidden;">
         @yield('content')
     </div>
 
