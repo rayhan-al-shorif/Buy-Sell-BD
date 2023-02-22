@@ -31,11 +31,15 @@
                     </li>
                     <li class="nav-item sal-animate" data-sal="slide-right" data-sal-delay="300" data-sal-duration="800"
                         data-sal-easing="ease">
-                        <a href="service" data-rr-ui-event-key="service" class="nav-link">Service</a>
+                        <a href="#about" class="nav-link">About Us</a>
                     </li>
                     <li class="nav-item sal-animate" data-sal="slide-right" data-sal-delay="300" data-sal-duration="800"
                         data-sal-easing="ease">
-                        <a href="#about" data-rr-ui-event-key="#about" class="nav-link">About Us</a>
+                        <a href="#whatWeDo" class="nav-link">What We Do?</a>
+                    </li>
+                    <li class="nav-item sal-animate" data-sal="slide-right" data-sal-delay="300" data-sal-duration="800"
+                        data-sal-easing="ease">
+                        <a href="service" data-rr-ui-event-key="service" class="nav-link">Service</a>
                     </li>
                     <div class="navbar_btn nav-item">
                         <a data-sal="flip-up" data-sal-delay="300" data-sal-duration="800" data-sal-easing="ease"

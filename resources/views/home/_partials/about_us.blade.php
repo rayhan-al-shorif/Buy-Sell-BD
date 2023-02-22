@@ -1,3 +1,4 @@
+<span id="about" class="mb-5"></span>
 <section id="info" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease"
     class="sal-animate">
     <div class="container">
@@ -81,6 +82,7 @@
             </div>
         </div>
     </div>
+    <span id="whatWeDo" class="mb-5"></span>
 </section>
 
 <script>

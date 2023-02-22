@@ -83,7 +83,7 @@ body, html {
     display: block;
 }
 .video_icon a i {
-    color: #f03210;
+    color: #14A2DD;
 }
 .banner_img:hover, .video_thumb:hover {
     cursor: pointer;
@@ -166,7 +166,7 @@ div.success_menu ul.common_slider_class li {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: #ff1e1e;
+    background: #14A2DD;
     text-align: center;
     position: fixed;
     right: 20px;
@@ -253,7 +253,7 @@ div.success_menu ul.common_slider_class li {
     margin-left: 15px;
 }
 .navbar_btn .active {
-    background: linear-gradient(214.38deg, #ff8079 -2.24%, #ff1e1e 59.38%)!important;
+    background: linear-gradient(214.38deg, #55a7c9 -2.24%, #14A2DD 59.38%)!important;
 }
 .navbar-nav .nav-item:last-child a img, .navbar_btn a img {
     padding-right: 9px;
@@ -391,7 +391,7 @@ div.success_menu ul.common_slider_class li {
     display: block;
     font-size: 52px;
     background: #fff;
-    background: -webkit-linear-gradient(15deg, #ff1e1e 35%, #ff8079 100%);
+    background: -webkit-linear-gradient(15deg, #14A2DD 35%, #75b2cd 100%);
     background-clip: text;
     -webkit-background-clip: text;
     padding-top: 10px;
@@ -422,7 +422,7 @@ div.success_menu ul.common_slider_class li {
 }
 .banner_text a:hover {
     background: #fff;
-    color: #cf0000;
+    color: #14A2DD;
     padding-right: 36px;
 }
 .banner_text a:hover span {
@@ -430,7 +430,7 @@ div.success_menu ul.common_slider_class li {
     margin-left: -5px;
 }
 .banner_text a:hover span.angle {
-    color: #cf0000;
+    color: #14A2DD;
     -webkit-transform: scale(1);
     transform: scale(1);
 }
@@ -538,7 +538,7 @@ div.success_menu ul.common_slider_class li {
 .overly_icon svg {
     font-size: 20px;
     margin-left: 2px;
-    color: #ff1e1e;
+    color: #14A2DD;
     line-height: 41px;
     position: absolute;
     top: 50%;
@@ -547,7 +547,7 @@ div.success_menu ul.common_slider_class li {
 }
 @-webkit-keyframes pulse {
     0% {
-    -webkit-box-shadow: 0 0 0 0 rgba(241, 0, 0, .4);
+    -webkit-box-shadow: 0 0 0 0 #14A2DD66;
 }
 70% {
     -webkit-box-shadow: 0 0 0 30px rgba(241, 9, 9, 0);
@@ -557,8 +557,8 @@ div.success_menu ul.common_slider_class li {
 }
 }@keyframes pulse {
     0% {
-    -webkit-box-shadow: 0 0 0 0 rgba(241, 0, 0, .4);
-    box-shadow: 0 0 0 0 rgba(241, 0, 0, .4);
+    -webkit-box-shadow: 0 0 0 0 #14A2DD66;
+    box-shadow: 0 0 0 0 #14A2DD66;
 }
 70% {
     -webkit-box-shadow: 0 0 0 30px rgba(241, 9, 9, 0);
@@ -644,7 +644,7 @@ div.success_menu ul.common_slider_class li {
     -moz-transition: .3s linear;
     -ms-transition: .3s linear;
     -o-transition: .3s linear;
-    border: 1px solid #ff1e1e;
+    border: 1px solid #14A2DD;
 }
 .course_slider_top .topNextarrow {
     -webkit-border-radius: 50%;
@@ -662,7 +662,7 @@ div.success_menu ul.common_slider_class li {
     -moz-transition: .3s linear;
     -ms-transition: .3s linear;
     -o-transition: .3s linear;
-    border: 1px solid #ff1e1e;
+    border: 1px solid #14A2DD;
 }
 @media only screen and (max-width:576px) {
     .course_slider_top .topPrevarrow {
@@ -675,7 +675,7 @@ div.success_menu ul.common_slider_class li {
     display: none;
 }
 .course_slider_top .slick-next:hover, .course_slider_top .slick-prev:hover {
-    color: #cf0000;
+    color: #14A2DD;
     cursor: pointer;
 }
 .carousel-indicators [data-bs-target] {
@@ -690,7 +690,7 @@ div.success_menu ul.common_slider_class li {
     bottom: -21px;
 }
 .carousel-indicators .active, .pg_succsess_img_slider .slick-dots li.slick-active {
-    background: #ff1e1e;
+    background: #14A2DD;
 }
 #courseslide {
     padding-bottom: 40px;
@@ -765,8 +765,8 @@ div.success_menu ul.common_slider_class li {
     display: inline-block;
     -webkit-transition: .3s linear;
     transition: .3s linear;
-    color: #cf0000;
-    border-bottom: 3px solid #cf0000;
+    color: #14A2DD;
+    border-bottom: 3px solid #14A2DD;
 }
 .course_catagory_item .course_slider_item, .pagination_btn ul li, .recommends h4 img {
     margin: 0 8px;
@@ -892,7 +892,7 @@ div.success_menu ul.common_slider_class li {
 }
 .slick-arrow {
     cursor: pointer;
-    border: 1px solid #cf0000;
+    border: 1px solid #14A2DD;
 }
 .slick-arrow svg {
     width: 100%!important;
@@ -901,7 +901,7 @@ div.success_menu ul.common_slider_class li {
 .slick-arrow:hover {
     cursor: pointer;
     color: #fff;
-    background-color: #ff1e1e;
+    background-color: #14A2DD;
 }
 .course_catagory_item .prevarrow {
     left: 0;
@@ -970,7 +970,7 @@ div.success_menu ul.common_slider_class li {
     top: 50%;
     text-align: center;
     z-index: 10;
-    color: #cf0000;
+    color: #14A2DD;
 }
 .counte_item3 h4 {
     background: -webkit-linear-gradient(15deg, #66902b, #66902b);
@@ -1010,7 +1010,7 @@ div.success_menu ul.common_slider_class li {
     color: rgba(0, 0, 0, .3);
 }
 #info .coursnextarrow:hover, #info .coursprevarrow:hover, .company_heading h2 span {
-    color: #cf0000;
+    color: #14A2DD;
 }
 #student_success {
     padding-bottom: 46px;
@@ -1196,7 +1196,7 @@ div.success_menu ul.common_slider_class li {
     -webkit-box-shadow: 5px 5px 60px rgba(0, 0, 0, .06);
 }
 .blog_slider .blogNextArrow:hover, .blog_slider .blogPrevArrow:hover, .studentNextArrow.slick-arrow:hover, .studentPrevArrow.slick-arrow:hover, .trainingNextArrow.slick-arrow:hover, .trainingPrevArrow.slick-arrow:hover {
-    color: #fb312e;
+    color: #14A2DD;
 }
 .studentNextArrow.slick-arrow {
     right: -3px;
@@ -1280,7 +1280,7 @@ div.success_menu ul.common_slider_class li {
     padding: 14px 29px;
 }
 #virtual .virtual .virtual_text h6 {
-    color: #cf0000;
+    color: #14A2DD;
     font-size: 22px;
     line-height: 33px;
 }
@@ -1335,7 +1335,7 @@ del {
 }
 .all_course_btn a {
     color: #fff;
-    background: linear-gradient(15deg, #ff1e1e 35%, #ff8079 100%);
+    background: linear-gradient(15deg, #14A2DD 35%, #58add1 100%);
     width: 145px;
     padding: 10px 0;
     font-family: Hind Siliguri;
@@ -1475,11 +1475,11 @@ del {
     line-height: 29px;
 }
 .seminar_content ul li .text_main .join_btn a {
-    color: #cf0000;
+    color: #14A2DD;
     font-size: 14px;
     line-height: 32px;
     letter-spacing: .2px;
-    border: .5px solid #cf0000;
+    border: .5px solid #14A2DD;
     background: #fff;
     text-align: center;
     border-radius: 10px;
@@ -1495,7 +1495,7 @@ del {
     -o-transition: .3s linear;
 }
 .seminar_content ul li .text_main .join_btn a:hover {
-    background-color: #cf0000;
+    background-color: #14A2DD;
     color: #fff;
 }
 .seminar_content .seminar_btn {
@@ -1522,9 +1522,9 @@ del {
     -o-transition: .5s linear;
 }
 .seminar_content .seminar_btn a:hover {
-    border: 1px solid #ff1e1e;
+    border: 1px solid #14A2DD;
     background: 0 0;
-    color: #ff1e1e;
+    color: #14A2DD;
 }
 .free_seminar_img {
     text-align: right;
@@ -1658,7 +1658,7 @@ del {
     padding: 30px 15px;
 }
 .counter_up_item h5 {
-    color: #cf0000;
+    color: #14A2DD;
     font-size: 30px;
     line-height: 45px;
 }
@@ -1723,7 +1723,7 @@ del {
     border: none;
     height: 100%}
 .company_menu ul li .company_nav_tab.active {
-    color: #cf0000;
+    color: #14A2DD;
     border: none;
 }
 .company_menu ul li .company_nav_tab.active::after {
@@ -1731,7 +1731,7 @@ del {
     content: "";
     width: 200%;
     height: 3px;
-    background: #cf0000;
+    background: #14A2DD;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
@@ -1856,7 +1856,7 @@ del {
 }
 .blog_item .blog_text a {
     background: #fff;
-    background: -webkit-linear-gradient(5deg, #ff1e1e 35%, #ff8079 100%);
+    background: -webkit-linear-gradient(5deg, #14A2DD 35%, #54b9e4 100%);
     background-clip: text;
     -webkit-background-clip: text;
     font-size: 14px;
@@ -1933,7 +1933,7 @@ del {
     border: 1px solid transparent;
     font-family: Hind Siliguri;
     color: #fff;
-    background: linear-gradient(214.38deg, #ff8079 -2.24%, #ff1e1e 59.38%);
+    background: linear-gradient(214.38deg, #48a5cd -2.24%, #14A2DD 59.38%);
     border-radius: 6px;
     text-align: center;
     -webkit-border-radius: 6px;
@@ -2064,7 +2064,7 @@ del {
     line-height: 24px;
 }
 .copy .copy_text p a, .thankyou_text h4 span {
-    color: #ff1e1e;
+    color: #14A2DD;
 }
 .copy .copy_social_link {
     text-align: right;
@@ -2091,8 +2091,8 @@ del {
     -o-transition: .3s linear;
 }
 .copy .copy_social_link a:hover {
-    background: #ff1e1e;
-    border-color: #ff1e1e;
+    background: #14A2DD;
+    border-color: #14A2DD;
     color: #fff;
 }
 #profe_graphic_banner {
@@ -2125,7 +2125,7 @@ del {
     font-weight: 600;
     line-height: 33px;
     background: #fff;
-    background: -webkit-linear-gradient(24deg, #ff1e1e 35%, #ff8079 100%);
+    background: -webkit-linear-gradient(24deg, #14A2DD 35%, #73b5d1 100%);
     background-clip: text;
     -webkit-background-clip: text;
 }
@@ -2179,7 +2179,7 @@ del {
 .pg_banner_text .pg_banner_btn a {
     font-family: Hind Siliguri;
     color: #fff;
-    background: linear-gradient(214.38deg, #ff8079 -2.24%, #ff1e1e 59.38%);
+    background: linear-gradient(214.38deg, #61aac9 -2.24%, #14A2DD 59.38%);
     border-radius: 10px;
     text-align: center;
     -webkit-border-radius: 10px;
@@ -2537,7 +2537,7 @@ del {
 }
 .student_work_height:hover::-webkit-scrollbar-thumb {
     border-radius: 3px;
-    background: #ff1e1e;
+    background: #14A2DD;
 }
 #about_top .about_top_img, .pgs_project .slick-dots {
     display: -webkit-box;
@@ -2558,7 +2558,7 @@ del {
     transition: .3s linear;
 }
 .pgs_project .slick-dots li.slick-active, .pgs_project .slick-dots li:hover {
-    background: #cf0000;
+    background: #14A2DD;
 }
 .pg_student_feedback {
     padding-top: 91px;
@@ -2615,7 +2615,7 @@ del {
     letter-spacing: .20000000298023224px;
 }
 .pg_succsess_story .heading h4 span a {
-    color: #cf0000;
+    color: #14A2DD;
     font-family: "Noto Sans Bengali", sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -2716,8 +2716,8 @@ del {
     transition: .5s linear;
 }
 .pg_wait .join_offline:hover a {
-    background: -webkit-gradient(linear, left top, left bottom, from(#ff8079), to(#ff1e1e));
-    background: linear-gradient(#ff8079, #ff1e1e);
+    background: -webkit-gradient(linear, left top, left bottom, from(#8caebd), to(#14A2DD));
+    background: linear-gradient(#8caebd, #14A2DD);
     color: #fff;
 }
 .pg_wait .join_offline h4 {
@@ -2739,7 +2739,7 @@ del {
 .pg_wait .join_offline a, .pg_wait .wait_btn a {
     font-size: 18px;
     text-align: center;
-    color: #cf0000;
+    color: #14A2DD;
     font-family: Hind Siliguri;
 }
 #desktop_50_pgc h1, #pro_gra_forwhom h2, .pg_wait .join_offline a, .pg_wait .wait_btn a, .pgc_overviwe_text .admission_rules h3 {
@@ -2756,7 +2756,7 @@ del {
 }
 .pg_wait .wait_btn a {
     display: block;
-    border: 1px solid #cf0000;
+    border: 1px solid #14A2DD;
     border-radius: 10px;
     padding: 15px 0;
     line-height: 32px;
@@ -2767,7 +2767,7 @@ del {
     margin-top: 15px;
 }
 .mission_body ul li::marker {
-    color: #cf0000;
+    color: #14A2DD;
 }
 .mission_body ul li {
     margin-bottom: 15px;
@@ -2872,7 +2872,7 @@ del {
     text-align: right;
 }
 #course_type .course_type_btn a, .btn-formSend, .course_free_facilities_btn a {
-    background: linear-gradient(214.38deg, #ff8079 -2.24%, #ff1e1e 59.38%);
+    background: linear-gradient(214.38deg, #8caebd -2.24%, #14A2DD 59.38%);
     border-radius: 10px;
     text-align: center;
     -webkit-border-radius: 10px;
@@ -2911,12 +2911,12 @@ del {
 .course_type_item .form-check .form-check-input:checked[type=radio] {
     background: #fff;
     position: relative;
-    border: 1px solid #cf0000;
+    border: 1px solid #14A2DD;
 }
 .course_type_item .form-check .form-check-input:checked[type=radio]::after {
     width: 20px;
     height: 20px;
-    background: #cf0000;
+    background: #14A2DD;
     border-radius: 50%;
     position: absolute;
     content: "";
@@ -2958,7 +2958,7 @@ del {
     padding-top: 125px;
 }
 .facilities_heading h1 {
-    color: #cf0000;
+    color: #14A2DD;
     font-family: Hind Siliguri;
     font-size: 45px;
     font-weight: 600;
@@ -3776,11 +3776,11 @@ form.student_form select {
 }
 .milestone_slider .prevarrow {
     left: -54px;
-    border: 1px solid #cf0000;
+    border: 1px solid #14A2DD;
 }
 .milestone_slider .nextarrow {
     right: -54px;
-    border: 1px solid #cf0000;
+    border: 1px solid #14A2DD;
 }
 .milestone_slider .card-body {
     padding-left: 85px;
@@ -3939,7 +3939,7 @@ form.student_form select {
     fill: rgba(0, 0, 0, 0.27);
 }
 #mission .mission_menu ul li button:hover {
-    border-left: 4px solid #cf0000;
+    border-left: 4px solid #14A2DD;
     background: #fff;
     -webkit-transition: .3s linear;
     transition: .3s linear;
@@ -3962,10 +3962,10 @@ form.student_form select {
     transition: .3s linear;
 }
 #mission .mission_menu ul li button.active svg path, #mission .mission_menu ul li button:hover svg path {
-    fill: #cf0000;
+    fill: #14A2DD;
 }
 #mission .mission_menu ul li button.active {
-    border-left: 4px solid #cf0000;
+    border-left: 4px solid #14A2DD;
 }
 #mission .mission_body h3 {
     line-height: 38px;
@@ -4210,9 +4210,9 @@ form.student_form .form_heading {
     font-family: Hind Siliguri;
 }
 .thankyou_text .thankyou_btn a:hover {
-    color: #ff1e1e;
+    color: #14A2DD;
     background: 0 0;
-    border: 1px solid #ff1e1e;
+    border: 1px solid #14A2DD;
 }
 #office_1 {
     padding-top: 44px;
@@ -4286,7 +4286,7 @@ form.student_form .form_heading {
     line-height: 38px;
     letter-spacing: .20000000298023224px;
     background: #fff;
-    background: -webkit-linear-gradient(45deg, #ff1e1e 35%, #ff8079 100%);
+    background: -webkit-linear-gradient(45deg, #14A2DD 35%, #6eb5d3 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -4312,7 +4312,7 @@ form.student_form .form_heading {
     border: none;
     background: 0 0;
     font-size: 17px;
-    color: #cf0000;
+    color: #14A2DD;
     position: absolute;
     right: 20px;
     top: 50%;
@@ -4638,7 +4638,7 @@ form.student_form .form_heading {
     position: absolute;
     width: 95%;
     height: 3px;
-    background: #cf0000;
+    background: #14A2DD;
     left: 50%;
     bottom: -1.5px;
     -webkit-transform: translateX(-50%);
@@ -4949,7 +4949,7 @@ form.student_form .form_heading {
     border-bottom-left-radius: 20px;
 }
 .toggle_active {
-    border: 1px solid #ff1e1e;
+    border: 1px solid #14A2DD;
 }
 .feedback_1_slider {
     max-height: 11rem;
@@ -5030,7 +5030,7 @@ body  {
 
 }
 
-[type="radio"]: checked,
+[type="radio"]:checked,
 [type="radio"]:not(:checked)  {
 
    position:  absolute;
@@ -5039,7 +5039,7 @@ body  {
 
 }
 
-[type="radio"]: checked+label,
+[type="radio"]:checked+label,
 [type="radio"]:not(:checked)+label  {
 
    position:  relative;
@@ -5056,7 +5056,7 @@ body  {
 
 }
 
-[type="radio"]: checked+label:before,
+[type="radio"]:checked+label:before,
 [type="radio"]:not(:checked)+label:before  {
 
    content:  '';
@@ -5079,7 +5079,7 @@ body  {
 
 }
 
-[type="radio"]: checked+label:after,
+[type="radio"]:checked+label:after,
 [type="radio"]:not(:checked)+label:after  {
 
    content:  '';
@@ -5104,7 +5104,7 @@ body  {
 
 }
 
-[type="radio"]: not(:checked)+label:after  {
+[type="radio"]:not(:checked)+label:after  {
 
    opacity:  0;
 
@@ -5114,13 +5114,13 @@ body  {
 
 }
 
-[type="radio"]: checked+label:after  {
+[type="radio"]:checked+label:after  {
 
    opacity:  1;
 
    -webkit-transform:  scale(1);
 
-   transform:  scale(1);
+   transform:scale(1);
 
 }
 
@@ -5240,9 +5240,9 @@ body  {
 
    padding:  10px 100px;
 
-   background-color:  #ff1e1e;
+   background-color:  #14A2DD;
 
-   border-color:  #ff1e1e;
+   border-color:  #14A2DD;
 
    color:  #ffff;
 
@@ -5290,7 +5290,7 @@ input .radio  {
 
 }
 
-.form-data button: hover  {
+.form-data button:hover  {
 
    border:  2px solid #ED8406;
 
@@ -5343,7 +5343,7 @@ p  {
 
    font-size:  100px;
 
-   color:  #ff1e1e;
+   color:  #14A2DD;
 
 }
 
@@ -5516,7 +5516,7 @@ p  {
 
 }
 
-.last_footer a: hover  {
+.last_footer a:hover  {
 
    border:  2px solid #ED8406;
 

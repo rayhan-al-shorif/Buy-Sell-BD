@@ -16,24 +16,10 @@
     <meta name="description"
         content="Develop your professional skills through CIT We provide Graphic Design, Digital Marketing, Web Design Development, 3d Animation, etc Call 880 1624 666 000">
 
-    <link rel="icon" href="https://creativeitinstitute.com/favicon-32x32.png" type="image/png"
+    <link rel="icon" href="{{asset('web/assets/images/icons/icon.png')}}" type="image/png"
         alt="Creative IT Institute | Favicon">
-    <link rel="apple-touch-icon" sizes="48x48" href="https://creativeitinstitute.com/icons/icon-48x48.png"
+    <link rel="apple-touch-icon" sizes="48x48" href="{{asset('web/assets/images/icons/icon.png')}}"
         alt="Creative IT Institute | Icon 1">
-    <link rel="apple-touch-icon" sizes="72x72" href="https://creativeitinstitute.com/icons/icon-72x72.png"
-        alt="Creative IT Institute | Icon 2">
-    <link rel="apple-touch-icon" sizes="96x96" href="https://creativeitinstitute.com/icons/icon-96x96.png"
-        alt="Creative IT Institute | Icon 3">
-    <link rel="apple-touch-icon" sizes="144x144" href="https://creativeitinstitute.com/icons/icon-144x144.png"
-        alt="Creative IT Institute | Icon 4">
-    <link rel="apple-touch-icon" sizes="192x192" href="https://creativeitinstitute.com/icons/icon-192x192.png"
-        alt="Creative IT Institute | Icon 5">
-    <link rel="apple-touch-icon" sizes="256x256" href="https://creativeitinstitute.com/icons/icon-256x256.png"
-        alt="Creative IT Institute | Icon 6">
-    <link rel="apple-touch-icon" sizes="384x384" href="https://creativeitinstitute.com/icons/icon-384x384.png"
-        alt="Creative IT Institute | Icon 7">
-    <link rel="apple-touch-icon" sizes="512x512" href="https://creativeitinstitute.com/icons/icon-512x512.png"
-        alt="Creative IT Institute | Icon 8">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
