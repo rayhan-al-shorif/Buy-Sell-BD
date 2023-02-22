@@ -4995,12 +4995,9 @@ form.student_form .form_heading {
 .glory_text_p p {
     padding: 0!important;
 }
-#course_department  {
-
-   height:  215px !important;
-
-   overflow:  hidden;
-
+#course_department {
+    height: 103px !important;
+    /* overflow: hidden; */
 }
 
 .course_body_slider  {
