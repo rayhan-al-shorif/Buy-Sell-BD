@@ -362,7 +362,7 @@ div.success_menu ul.common_slider_class li {
     z-index: -1;
 }
 .banner_text {
-    max-width: 469px;
+    max-width: 100%;
 }
 .banner_text h5 {
     font-size: 17px;

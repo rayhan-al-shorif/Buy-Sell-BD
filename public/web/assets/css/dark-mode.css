@@ -5,3 +5,9 @@
 .dark-mode .main_menu li.nav-item a.nav-link{
     color: rgb(255, 255, 255)!important;
 }
+.dark-mode .course_cat_heading h1, .section_heading h2, .section_heading3 h2 {
+    color: rgb(255, 255, 255)!important;
+}
+.dark-mode .course_heading h3 {
+    color: rgb(255, 255, 255)!important;
+}
