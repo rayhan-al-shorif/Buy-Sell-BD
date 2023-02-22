@@ -39,8 +39,7 @@
                     </li>
                     <div class="navbar_btn nav-item">
                         <a data-sal="flip-up" data-sal-delay="300" data-sal-duration="800" data-sal-easing="ease"
-                            href="#" class="sal-animate"><img src="https://creativeitinstitute.com/book.png"
-                                alt="icon"><span style="margin-right:0.5rem">
+                            href="#" class="sal-animate">
                                 <i class="fa-solid fa-gear"></i></span></a>
                     </div>
                 </ul>

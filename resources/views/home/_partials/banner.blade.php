@@ -9,9 +9,11 @@
                         something
                     </h5><img src="{{asset('web/assets/images/shape.png')}}"
                         alt="victor_dot" class="dot_shape_banner">
-                    <h1 data-sal="zoom-in" data-sal-delay="200" data-sal-duration="700" data-sal-easing="ease"
-                        class="sal-animate">Something</h1>
-                    <p>something</p><a target="_blank" href="/our-courses" class="browse_btn sal-animate"
+                    <span class="sal-animate" id="type">
+                        sdkjnskdnc
+                    </span>
+                    <p>something</p>
+                    <a target="_blank" href="/our-courses" class="browse_btn sal-animate"
                         data-sal="slide-left" data-sal-delay="300" data-sal-duration="800"
                         data-sal-easing="ease"><span><img src="#"
                                 alt="icon"></span>Button</a><a target="_blank" href="/our-courses"
@@ -49,6 +51,18 @@
     $(document).ready(function(){
         setInterval(() => {
             $("#bannerImage").attr("src","https://picsum.photos/800/500");
-        }, 500);
+        }, 1000);
+        var app = document.getElementById('type');
+
+        var typewriter = new Typewriter(app, {
+        loop: true,
+        delay: 75,
+        });
+
+        typewriter
+        .typeString('A simple yet powerful native javascript')
+        .pauseFor(2500)
+        .deleteAll()
+        .start();
     });
 </script>

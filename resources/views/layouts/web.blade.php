@@ -36,13 +36,17 @@
         alt="Creative IT Institute | Icon 8">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
-    <link rel="stylesheet" href="{{asset('web/assets/css/font-awesome.min.css')}}">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="{{asset('web/assets/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('web/assets/css/slick.css')}}">
     <link rel="stylesheet" href="{{asset('web/assets/css/venobox.min.css')}}">
     <link rel="stylesheet" href="{{asset('web/assets/css/style.css')}}">
     <link rel="stylesheet" href="{{asset('web/assets/css/responsive.css')}}">
     <link rel="stylesheet" href="{{asset('web/assets/css/custom.css')}}">
+
+    {{-- owl.carousel --}}
+    <link rel="stylesheet" href="{{asset('web/assets/css/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{asset('web/assets/css/owl.theme.default.min.css')}}">
 
     <link rel="stylesheet" href="{{asset('web/assets/js/custom.js')}}">
     <!-- Facebook Pixel Code -->
@@ -86,6 +90,7 @@
          All JS Link Here Start
     =================================== -->
     <script src="https://creativeitinstitute.com/assets/js/jquery-1.12.4.min.js"></script>
+    <script src="{{asset('web/assets/js/owl.carousel.min.js')}}"></script>
     <script src="https://creativeitinstitute.com/assets/js/bootstrap.bundle.min.js"></script>
     <script src="https://creativeitinstitute.com/assets/js/slick.min.js"></script>
     <script src="https://creativeitinstitute.com/assets/js/waypoints.min.js"></script>
