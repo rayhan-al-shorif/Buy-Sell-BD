@@ -10,6 +10,8 @@
 @include('home._partials.banner')
 @include('home._partials.bannerWithServices')
 @include('home._partials.about_us')
+@include('home._partials.what-we-do')
+@include('home._partials.service')
 
 {{-- @include('home._partials.slider') --}}
 {{-- @include('home._partials.about') --}}
