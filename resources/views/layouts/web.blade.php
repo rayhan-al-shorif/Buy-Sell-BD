@@ -35,6 +35,7 @@
     <link rel="apple-touch-icon" sizes="512x512" href="https://creativeitinstitute.com/icons/icon-512x512.png"
         alt="Creative IT Institute | Icon 8">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
     <link rel="stylesheet" href="{{asset('web/assets/css/font-awesome.min.css')}}">
     <link rel="stylesheet" href="{{asset('web/assets/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('web/assets/css/slick.css')}}">
