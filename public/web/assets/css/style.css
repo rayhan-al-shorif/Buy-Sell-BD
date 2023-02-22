@@ -730,12 +730,18 @@ div.success_menu ul.common_slider_class li {
 }
 .section_heading2 h2, .section_heading3 h2 {
     padding-bottom: 20px!important;
+    font-size: 32px;
+    line-height: 38px;
 }
 .section_heading2 p, .section_heading3 p {
-    padding-bottom: 40px!important;
+    padding-bottom: 15px!important;
+    font-size: 15px!important;
 }
 .section_heading3 p {
-    max-width: 85%}
+    max-width: 100%;
+    text-align: justify;
+    font-size: 15px!important;
+}
 .facilities_heading h2 {
     padding-bottom: 20px;
 }

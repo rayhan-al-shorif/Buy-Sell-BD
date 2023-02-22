@@ -1,3 +1,4 @@
+
 <section id="courseslide"></section>
     <div class="container populer_courses">
         <div class="row">
@@ -480,3 +481,9 @@
         </div>
     </div>
 </section>
+
+<style>
+    .nav-link>.active {
+        border-color: none !important;
+    }
+</style>

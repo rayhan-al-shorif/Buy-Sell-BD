@@ -11,6 +11,8 @@
 @include('home._partials.bannerWithServices')
 @include('home._partials.about_us')
 @include('home._partials.what-we-do')
+@include('home._partials.about_ceo')
+{{-- @include('home._partials.contact') --}}
 @include('home._partials.service')
 
 {{-- @include('home._partials.slider') --}}
