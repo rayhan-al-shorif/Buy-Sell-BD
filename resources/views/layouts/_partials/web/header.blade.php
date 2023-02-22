@@ -42,9 +42,10 @@
                         <a href="service" data-rr-ui-event-key="service" class="nav-link">Service</a>
                     </li>
                     <div class="navbar_btn nav-item">
-                        <a data-sal="flip-up" data-sal-delay="300" data-sal-duration="800" data-sal-easing="ease"
-                            href="#" class="sal-animate">
-                                <i class="fa-solid fa-gear"></i></span></a>
+                        <span class="sal-animate dark-mode">
+                            <i class="fa-solid fa-moon"></i>
+                            <i class="fa-solid fa-sun d-none"></i>
+                        </span>
                     </div>
                 </ul>
             </div>
@@ -69,7 +70,7 @@
 
         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
             aria-labelledby="offcanvasExampleLabel"
-            style="background: url({{asset('web/assets/images/offCanvasBg.png')}}) no-repeat center; background-size: cover;">
+            style="background: #14a2dd no-repeat center; background-size: cover;">
             <div class="offcanvas-body">
                 <div class="offcanvas-header justify-content-end">
                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
@@ -87,7 +88,7 @@
                     </li>
                     <div class="navbar_btn text-center nav-item">
                         <a href="#">
-                            <img src="#" alt="icon">Setting<i class="fa fa-angle-down ps-2"></i></a>
+                            <img src="#" alt="icon"><i class="fa fa-angle-down ps-2"></i></a>
                     </div>
                 </ul>
             </div>

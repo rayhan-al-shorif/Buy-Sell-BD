@@ -1,0 +1,7 @@
+.dark-mode{
+    color: rgb(255, 255, 255);
+    background: #000000;
+}
+.dark-mode .main_menu li.nav-item a.nav-link{
+    color: rgb(255, 255, 255)!important;
+}

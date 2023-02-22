@@ -29,12 +29,14 @@
     <link rel="stylesheet" href="{{asset('web/assets/css/style.css')}}">
     <link rel="stylesheet" href="{{asset('web/assets/css/responsive.css')}}">
     <link rel="stylesheet" href="{{asset('web/assets/css/custom.css')}}">
+    <link rel="stylesheet" href="{{asset('web/assets/css/dark-mode.css')}}">
 
     {{-- owl.carousel --}}
     <link rel="stylesheet" href="{{asset('web/assets/css/owl.carousel.min.css')}}">
     <link rel="stylesheet" href="{{asset('web/assets/css/owl.theme.default.min.css')}}">
 
     <link rel="stylesheet" href="{{asset('web/assets/js/custom.js')}}">
+    <link rel="stylesheet" href="{{asset('web/assets/js/CookieManager.js')}}">
     <!-- Facebook Pixel Code -->
 
     <noscript>
@@ -44,6 +46,7 @@
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-93245109-2"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -75,6 +78,36 @@
     <!-- =================================
          All JS Link Here Start
     =================================== -->
+    <script>
+        $(function(){
+
+            axios.post("/get-cookie", {
+                name: "dark"
+            }).then((response) => {
+                let mode = response.data;
+                if(mode == "dark-mode"){
+                    $(this).find('.fa-moon').removeClass('d-none');
+                    $(this).find('.fa-sun').addClass('d-none');
+                    $("body").addClass('dark-mode');
+                }else{
+                    $(this).find('.fa-moon').addClass('d-none');
+                    $(this).find('.fa-sun').removeClass('d-none');
+                    $("body").removeClass('dark-mode');
+                }
+            });
+
+            $(".dark-mode").click(function(){
+                 $(this).find('.fa-moon').toggleClass('d-none');
+                 $(this).find('.fa-sun').toggleClass('d-none');
+                 $("body").toggleClass('dark-mode');
+                 let data = {
+                    name: "dark",
+                    color: "dark-mode"
+                  };
+                axios.post("/set-cookie", data);
+            });
+        });
+    </script>
     <script src="https://creativeitinstitute.com/assets/js/jquery-1.12.4.min.js"></script>
     <script src="{{asset('web/assets/js/owl.carousel.min.js')}}"></script>
     <script src="https://creativeitinstitute.com/assets/js/bootstrap.bundle.min.js"></script>
@@ -93,6 +126,8 @@
     <!-- Your Chat Plugin code -->
     <div id="fb-customer-chat" class="fb-customerchat">
     </div>
+
+
 
     <script>
         var chatbox = document.getElementById('fb-customer-chat');
@@ -118,6 +153,8 @@
          fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
     </script>
+
+
 
     <!-- =================================
          All JS Link Here End
