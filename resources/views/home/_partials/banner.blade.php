@@ -9,23 +9,11 @@
                         something
                     </h5><img src="{{asset('web/assets/images/shape.png')}}"
                         alt="victor_dot" class="dot_shape_banner">
-                    <span class="sal-animate" id="type">
-                        sdkjnskdnc
-                    </span>
-                    <p>something</p>
-                    <a target="_blank" href="/our-courses" class="browse_btn sal-animate"
-                        data-sal="slide-left" data-sal-delay="300" data-sal-duration="800"
-                        data-sal-easing="ease"><span><img src="#"
-                                alt="icon"></span>Button</a><a target="_blank" href="/our-courses"
-                        class="d-inline-block d-sm-none" data-sal="slide-left" data-sal-delay="300"
-                        data-sal-duration="800" data-sal-easing="ease"><span><img
-                                src="#" alt="icon"></span>Button<span class="ms-2 angle"><i class="fa fa-angle-down"></i></span></a><a target="_blank"
-                        class="join_btn sal-animate" href="/free-seminar" data-sal="slide-right" data-sal-delay="300"
-                        data-sal-duration="800" data-sal-easing="ease"><span><img
-                                src="#" alt="icon"></span>Button</a>
-                    <ul>
-
-                    </ul>
+                    <span class="sal-animate" id="type" style="font-size: 22px;"></span>
+                    <p>....</p>
+                    <a href="#contact_us" class="browse_btn sal-animate" data-sal-delay="300" data-sal-duration="800"
+                        data-sal-easing="ease">Contact Us &nbsp;<i class="fa-solid fa-comment"></i>
+                    </a>
                 </div>
             </div>
             <div class="col-lg-7">

@@ -235,7 +235,7 @@ div.success_menu ul.common_slider_class li {
     padding-right: 0!important;
 }
 .navbar-nav .nav-item:last-child a, .navbar_btn a {
-    font-size: 18px;
+    font-size: 15px;
     color: #fff;
     border-radius: 10px!important;
     text-align: center;
@@ -243,7 +243,7 @@ div.success_menu ul.common_slider_class li {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    padding: 13px 19px;
+    padding: 6px 11px;
     cursor: pointer;
 }
 .navbar_btn .nav-link {
