@@ -10,6 +10,16 @@
 @include('home._partials.banner')
 @include('home._partials.bannerWithServices')
 @include('home._partials.about_us')
+
+{{-- @include('home._partials.slider') --}}
+{{-- @include('home._partials.about') --}}
+{{-- @include('home._partials.what-we-do') --}}
+{{-- @include('home._partials.service') --}}
+{{-- @include('home._partials.about_sir') --}}
+{{-- @include('home._partials.contact') --}}
+{{-- @include('home._partials.footer') --}}
+{{-- @include('home._partials.settings') --}}
+{{-- @include('home._partials.social') --}}
 @endsection
 @push('scripts')
 <script src="{{ asset('js/home.js') }}"></script>

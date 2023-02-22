@@ -92,21 +92,26 @@
             responsive:{
             0:{
             items:1,
-            nav:true
+            nav:false
             },
             600:{
             items:1,
-            nav:true
+            nav:false
             },
             1000:{
             items:1,
-            nav:true,
+            nav:false,
             loop:true
             }
             }
         });
 
-        $(".prevarrow").on('click',function(){});
-        $(".nextarrow").on('click',function(){});
+        $(".owl-nav").addClass("d-none");
+        $(".prevarrow").on('click',function(){
+            $(".owl-prev").click();
+        });
+        $(".nextarrow").on('click',function(){
+            $(".owl-next").click();
+        });
     });
 </script>
