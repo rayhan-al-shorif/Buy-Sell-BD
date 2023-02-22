@@ -25,8 +25,11 @@ a, a:hover {
     line-height: 27px;
     color: #fff;
 }
-#topbar, .banner_text a, .glory_text .glory_btn a, .more_facilities_btn a, .navbar-nav .nav-item:last-child a, .navbar_btn a, .seminar_content .seminar_btn a {
+#topbar, .banner_text a, .glory_text .glory_btn a, .read_more_btn span, .navbar-nav .nav-item:last-child a, .navbar_btn a, .seminar_content .seminar_btn a {
     background: linear-gradient(214.38deg, #5daccd -2.24%, #25A9E0 59.38%);
+}
+.read_less_btn span{
+     background: linear-gradient(214.38deg, #cd5d5d -2.24%, #e02541 59.38%);
 }
 .banner_text h1 span, .blog_item .blog_text a, .counte_item2 h4, .counte_item3 h4, .pg_banner_text h4 {
     -webkit-text-fill-color: transparent;
@@ -1066,7 +1069,24 @@ div.success_menu ul.common_slider_class li {
 .more_facilities_item_6, .pg_more_facilities_item_6 {
     background: linear-gradient(227.39deg, #fdf2f2 2.74%, rgba(253, 242, 242, .3) 97.4%);
 }
-.more_facilities_btn a {
+.read_more_btn span {
+    color: #fff;
+    width: 145px;
+    padding: 10px 0;
+    font-family: Hind Siliguri;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: .2px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: 38px;
+}
+.read_less_btn span {
     color: #fff;
     width: 145px;
     padding: 10px 0;
@@ -2885,7 +2905,7 @@ del {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    padding: 14px 48px;
+    padding: 6px 20px;
     color: #fff;
     font-family: Hind Siliguri;
     font-size: 18px;
