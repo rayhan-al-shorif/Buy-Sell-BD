@@ -69,8 +69,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script>
 
-
-
     $(document).ready(function(){
         $('.owl-carousel-banner').owlCarousel({
             loop:true,
@@ -78,7 +76,7 @@
             autoplay:true,
             autoplayTimeout:5000,
             autoplayHoverPause:true,
-            dots: false,
+            dots: true,
             responsive:{
                 0:{
                 items:1

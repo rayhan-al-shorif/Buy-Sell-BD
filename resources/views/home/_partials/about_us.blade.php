@@ -11,7 +11,7 @@
             <div class="col-12 milestone_slider_bg">
                 <div class="milestone_slider slick-initialized slick-slider">
                     <i class="fa fa-angle-left prevarrow slick-arrow" style="display: block;"></i>
-                    <div class="owl-carousel owl-theme owl-loaded">
+                    <div class="owl-carousel owl-theme owl-loaded about_slider">
                         <div class="owl-stage-outer">
                             <div class="owl-stage">
                                 <div class="owl-item">
@@ -86,7 +86,7 @@
 
 <script>
     $(document).ready(function(){
-        $(".owl-carousel").owlCarousel({
+        $(".about_slider").owlCarousel({
             loop:true,
             margin:10,
             responsiveClass:true,
@@ -109,10 +109,10 @@
 
         $(".owl-nav").addClass("d-none");
         $(".prevarrow").on('click',function(){
-            $(".owl-prev").click();
+            $(".about_slider .owl-prev").click();
         });
         $(".nextarrow").on('click',function(){
-            $(".owl-next").click();
+            $(".about_slider .owl-next").click();
         });
     });
 </script>
