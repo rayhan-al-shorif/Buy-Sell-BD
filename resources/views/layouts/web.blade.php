@@ -72,13 +72,6 @@
     <div class="back_to_top">
         <a href="#"><i class="fa fa-angle-up"></i></a>
     </div>
-    <!-- =================================
-        Footer Area End
-    =================================== -->
-
-    <!-- =================================
-         All JS Link Here Start
-    =================================== -->
     <script>
         $(function(){
 
@@ -118,16 +111,12 @@
         });
     </script>
     <script src="{{asset('web/assets/js/owl.carousel.min.js')}}"></script>
-    <script src="https://creativeitinstitute.com/assets/js/bootstrap.bundle.min.js"></script>
-    <script src="https://creativeitinstitute.com/assets/js/slick.min.js"></script>
-    <script src="https://creativeitinstitute.com/assets/js/waypoints.min.js"></script>
-    <script src="https://creativeitinstitute.com/assets/js/venobox.min.js"></script>
-    <script src="https://creativeitinstitute.com/assets/js/script.js"></script>
-    <script src="/livewire/livewire.js?id=de3fca26689cb5a39af4" data-turbo-eval="false" data-turbolinks-eval="false">
-    </script>
-    <script data-turbo-eval="false" data-turbolinks-eval="false">
-        window.livewire = new Livewire();window.Livewire = window.livewire;window.livewire_app_url = '';window.livewire_token = 'fEFreDx0O1y4X9H6CHcbG8Fn1QEm8RMIcWA5Skm4';window.deferLoadingAlpine = function (callback) {window.addEventListener('livewire:load', function () {callback();});};let started = false;window.addEventListener('alpine:initializing', function () {if (! started) {window.livewire.start();started = true;}});document.addEventListener("DOMContentLoaded", function () {if (! started) {window.livewire.start();started = true;}});
-    </script>
+    <script src="{{asset('web/assets/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{asset('web/assets/js/slick.min.js')}}"></script>
+    <script src="{{asset('web/assets/js/waypoints.min.js')}}"></script>
+    <script src="{{asset('web/assets/js/venobox.min.js')}}"></script>
+    <script src="{{asset('web/assets/js/script.js')}}"></script>
+
     <!-- Messenger Chat Plugin Code -->
     <div id="fb-root"></div>
 

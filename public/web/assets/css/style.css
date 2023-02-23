@@ -1344,13 +1344,13 @@ div.success_menu ul.common_slider_class li {
     line-height: 38px;
     padding-bottom: 26px;
 }
-.admission_item.course_single_item {
+.what_we_do.course_single_item {
     margin-left: 0;
     margin-right: 0;
     -webkit-transition: .3s linear;
     transition: .3s linear;
 }
-.admission_item.course_single_item:hover {
+.what_we_do.course_single_item:hover {
     -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, .05);
     box-shadow: 0 4px 30px rgba(0, 0, 0, .05);
 }

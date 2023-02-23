@@ -4320,7 +4320,7 @@
                                 data-sal="slide-right" data-sal-delay="0" data-sal-duration="800"
                                 data-sal-easing="ease"><a
                                     href="https://creativeitinstitute.com/courses/professional-graphics-design">
-                                    <div class="course_single_item admission_item">
+                                    <div class="course_single_item what_we_do">
                                         <div class="course_image"><img class="img-fluid w-100"
                                                 src="https://creativeitinstitute.com/images/course/course_1665409737.jpg"
                                                 alt="প্রফেশনাল গ্রাফিক ডিজাইন" loading="lazy"></div>
@@ -4373,7 +4373,7 @@
                                 data-sal="slide-right" data-sal-delay="0" data-sal-duration="800"
                                 data-sal-easing="ease"><a
                                     href="https://creativeitinstitute.com/courses/motion-graphics">
-                                    <div class="course_single_item admission_item">
+                                    <div class="course_single_item what_we_do">
                                         <div class="course_image"><img class="img-fluid w-100"
                                                 src="https://creativeitinstitute.com/images/course/course_1662552115.jpg"
                                                 alt="মোশন গ্রাফিক্স" loading="lazy"></div>
@@ -4425,7 +4425,7 @@
                             <div class="col-lg-4 col-md-6 col-sm-6 pb-6 sal-animate course-admission-item"
                                 data-sal="slide-right" data-sal-delay="0" data-sal-duration="800"
                                 data-sal-easing="ease"><a href="https://creativeitinstitute.com/courses/ux-ui-design">
-                                    <div class="course_single_item admission_item">
+                                    <div class="course_single_item what_we_do">
                                         <div class="course_image"><img class="img-fluid w-100"
                                                 src="https://creativeitinstitute.com/images/course/course_1662637290.jpg"
                                                 alt="UX/UI ডিজাইন" loading="lazy"></div>
@@ -4486,7 +4486,7 @@
                             <div class="col-lg-4 col-md-6 col-sm-6 pb-6 sal-animate course-admission-item"
                                 data-sal="slide-right" data-sal-delay="0" data-sal-duration="800"
                                 data-sal-easing="ease"><a href="https://creativeitinstitute.com/courses/web-design">
-                                    <div class="course_single_item admission_item">
+                                    <div class="course_single_item what_we_do">
                                         <div class="course_image"><img class="img-fluid w-100"
                                                 src="https://creativeitinstitute.com/images/course/course_1662791772.jpg"
                                                 alt="ওয়েব ডিজাইন" loading="lazy"></div>
@@ -4539,7 +4539,7 @@
                                 data-sal="slide-right" data-sal-delay="0" data-sal-duration="800"
                                 data-sal-easing="ease"><a
                                     href="https://creativeitinstitute.com/courses/web-development">
-                                    <div class="course_single_item admission_item">
+                                    <div class="course_single_item what_we_do">
                                         <div class="course_image"><img class="img-fluid w-100"
                                                 src="https://creativeitinstitute.com/images/course/course_1663052056.jpg"
                                                 alt="ওয়েব ডেভেলপমেন্ট" loading="lazy"></div>
@@ -4592,7 +4592,7 @@
                                 data-sal="slide-right" data-sal-delay="0" data-sal-duration="800"
                                 data-sal-easing="ease"><a
                                     href="https://creativeitinstitute.com/courses/mern-stack-development">
-                                    <div class="course_single_item admission_item">
+                                    <div class="course_single_item what_we_do">
                                         <div class="course_image"><img class="img-fluid w-100"
                                                 src="https://creativeitinstitute.com/images/course/course_1662795698.jpg"
                                                 alt="মার্ন স্ট্যাক ডেভেলপমেন্ট" loading="lazy"></div>
@@ -4654,7 +4654,7 @@
                                 data-sal="slide-right" data-sal-delay="0" data-sal-duration="800"
                                 data-sal-easing="ease"><a
                                     href="https://creativeitinstitute.com/courses/digital-marketing">
-                                    <div class="course_single_item admission_item">
+                                    <div class="course_single_item what_we_do">
                                         <div class="course_image"><img class="img-fluid w-100"
                                                 src="https://creativeitinstitute.com/images/course/course_1662724358.jpg"
                                                 alt="Digital Marketing Course" loading="lazy"></div>
@@ -4707,7 +4707,7 @@
                                 data-sal="slide-right" data-sal-delay="0" data-sal-duration="800"
                                 data-sal-easing="ease"><a
                                     href="https://creativeitinstitute.com/courses/affiliate-marketing">
-                                    <div class="course_single_item admission_item">
+                                    <div class="course_single_item what_we_do">
                                         <div class="course_image"><img class="img-fluid w-100"
                                                 src="https://creativeitinstitute.com/images/course/course_1663052131.jpg"
                                                 alt="এফিলিয়েট মার্কেটিং" loading="lazy"></div>
@@ -4759,7 +4759,7 @@
                             <div class="col-lg-4 col-md-6 col-sm-6 pb-6 sal-animate course-admission-item"
                                 data-sal="slide-right" data-sal-delay="0" data-sal-duration="800"
                                 data-sal-easing="ease"><a href="https://creativeitinstitute.com/courses/google-adsense">
-                                    <div class="course_single_item admission_item">
+                                    <div class="course_single_item what_we_do">
                                         <div class="course_image"><img class="img-fluid w-100"
                                                 src="https://creativeitinstitute.com/images/course/course_1663052296.jpg"
                                                 alt="গুগল অ্যাডসেন্স" loading="lazy"></div>

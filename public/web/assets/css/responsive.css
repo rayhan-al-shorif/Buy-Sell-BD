@@ -572,7 +572,7 @@
     .facilities_heading p.desing_multi_peragraph {
         padding-bottom: 45px;
     }
-    .admission_item.course_single_item {
+    .what_we_do.course_single_item {
         margin-bottom: 25px;
         margin-top: 0;
     }
@@ -916,8 +916,14 @@
         margin-top: 50% !important;
         transform: translateY(-50%);
     }
+
+
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
+     .chairman{
+        width: 100%!important;
+        text-align: justify!important;
+    }
     #glory,
     #seminar {
         padding-top: 65px;
@@ -1163,7 +1169,7 @@
     .blogPrevArrow.slick-arrow:hover {
         color: #fb312e;
     }
-    .admission_item.course_single_item {
+    .what_we_do.course_single_item {
         margin-bottom: 25px;
         margin-top: 0;
     }
@@ -2203,7 +2209,7 @@
     #our_facilities {
         padding-top: 132px;
     }
-    .admission_item.course_single_item {
+    .what_we_do.course_single_item {
         margin-bottom: 21px;
         margin-top: 0;
     }
