@@ -7,9 +7,8 @@
             <p>B2M Technologies Ltd. Incorporated in Bangladesh is connected to all major cell phone operators, providing value added
             services through mobile phone network.</p>
         </div>
-        <div class="row">
+        <div class="row" style="margin: 0 10px;">
             <div class="col-12 milestone_slider_bg">
-
                 <div class="milestone_slider slick-initialized slick-slider">
                     <i class="fa fa-angle-left prevarrow slick-arrow" style="display: block;"></i>
                     <div class="owl-carousel owl-theme owl-loaded">

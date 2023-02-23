@@ -17,9 +17,8 @@
             <div class="col-lg-12 m-auto justify-content-center">
                 <div class="banner_img">
                      <img
-                            class="img-fluid homebanner-thumb video_thumb sal-animate" id="bannerImage" src=""
-                            alt="Home Banner| Icon" data-sal="zoom-in" data-sal-delay="200" data-sal-duration="700"
-                            data-sal-easing="ease">
+                        class="img-fluid homebanner-thumb video_thumb sal-animate" id="bannerImage" src="https://picsum.photos/800/500"
+                        alt="Home Banner| Icon">
                 </div>
             </div>
         </div>
@@ -28,9 +27,6 @@
 
 <script>
     $(document).ready(function(){
-        setInterval(() => {
-            $("#bannerImage").attr("src","https://picsum.photos/800/500");
-        }, 1000);
         var app = document.getElementById('type');
 
         var typewriter = new Typewriter(app, {

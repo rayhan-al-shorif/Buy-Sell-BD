@@ -20,7 +20,9 @@
     <nav id="navbar" class="d-none d-lg-block  navbar navbar-expand-lg navbar-light">
         <div class="container">
             <a href="/" data-sal="zoom-in" data-sal-delay="300" data-sal-duration="800" data-sal-easing="ease"
-                class="navbar-brand sal-animate">
+                class="navbar-brand sal-animate" style="
+    margin: 0 -12px;
+">
                 <img src="{{asset('web/assets/images/logo.png')}}" style="max-height: 52px" alt="Logo">
             </a>
             <div class="navbar-collapse collapse">
@@ -96,3 +98,5 @@
     </div>
     <!-- OffCanvas Menu End-->
 </header>
+<style>
+</style>
