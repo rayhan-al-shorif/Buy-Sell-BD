@@ -19,7 +19,8 @@ a, a:hover {
     font-weight: 600;
 }
 .side_text a, p {
-    font-size: 18px;
+    font-size: 14px;
+    text-align: justify;
 }
 .side_text a, .topbar_text a {
     line-height: 27px;
@@ -345,7 +346,7 @@ div.success_menu ul.common_slider_class li {
     /* background: url("/web/assets/images/banner_bg.png") center/cover no-repeat; */
     background: #14a2dd21 center/cover no-repeat;
     padding-top: 142px;
-    padding-bottom: 203px;
+    padding-bottom: 70px;
     position: relative;
     clear: both;
 }
@@ -1338,11 +1339,16 @@ div.success_menu ul.common_slider_class li {
     padding: 19px;
     display: block;
 }
-.course_heading h3 {
+.title h3 {
     color: #1f1e1e;
     font-size: 32px;
     line-height: 38px;
     padding-bottom: 26px;
+}
+.title p {
+    color: #605F62;
+    font-size: 15px;
+    line-height: 28px;
 }
 .what_we_do.course_single_item {
     margin-left: 0;

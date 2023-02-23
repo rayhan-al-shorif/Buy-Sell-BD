@@ -1,7 +1,7 @@
 <section id="iso">
     <div class="container">
-        <div class="section_heading3">
-            <h2>RIZ Event</h2>
+        <div class="title">
+            <h3>RIZ Event</h3>
             <p class="text-justify">Buysellbd is a personalized service for buying and selling Club Membership of Exclusive Clubs. Gaining access to a Club like Dhaka Club, Gulshan Club, Banani Club, Uttara Club are very exclusive and time consuming. On the other hand finding
             someone eligible to handover existing membership is sometime very difficult. BuySellBD brings the only exclusive
             platform to make these transactions easier.</p>

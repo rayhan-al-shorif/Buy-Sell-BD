@@ -2,8 +2,8 @@
 <section id="info" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease"
     class="sal-animate">
     <div class="container">
-        <div class="section_heading3">
-            <h2>About Us</h2>
+        <div class="title">
+            <h3>About Us</h3>
             <p>B2M Technologies Ltd. Incorporated in Bangladesh is connected to all major cell phone operators, providing value added
             services through mobile phone network.</p>
         </div>

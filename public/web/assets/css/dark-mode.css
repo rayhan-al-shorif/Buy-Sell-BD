@@ -11,6 +11,9 @@
 .dark-mode .course_heading h3 {
     color: rgb(255, 255, 255)!important;
 }
+.dark-mode .tile h3 {
+    color: rgb(255, 255, 255)!important;
+}
 .dark-mode .milestone_slider_bg {
     background-color: #111111;
 }

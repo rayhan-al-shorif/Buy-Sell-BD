@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <div class="course_heading">
+            <div class="title">
                 <h3>What We Do?</h3>
             </div>
         </div>

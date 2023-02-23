@@ -1907,10 +1907,10 @@
         line-height: 20px;
     }
     .slick-slider .prevarrow {
-        left: 0 !important;
+        /* left: 0 !important; */
     }
     .slick-slider .nextarrow {
-        right: 0;
+        /* right: 0; */
     }
     .slick-slider .nextarrow:hover,
     .slick-slider .prevarrow:hover {
