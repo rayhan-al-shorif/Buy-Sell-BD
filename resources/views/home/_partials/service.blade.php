@@ -3,9 +3,8 @@
     <div class="container populer_courses">
         <div class="row">
             <div class="col-12">
-                <div class="section_heading">
-                    <h2>Services</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, corporis ipsam laborum eveniet ab, maiores voluptatum molestias tempore voluptas quam quidem blanditiis vero sunt voluptates velit expedita cumque pariatur iste.</p>
+                <div class="title">
+                    <h3>Services</h3>
                 </div>
             </div>
             <div class="col-12">

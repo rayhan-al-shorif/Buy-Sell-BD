@@ -2,7 +2,9 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 m-auto">
-                <h3 class="f_Q mb-3">Contact Us</h3>
+                <div class="title">
+                    <h3>Contact Us</h3>
+                </div>
                 <form action="https://www.creativeitinstitute.com/contact/us/store" method="POST" class="student_form">
                     <input type="hidden" name="_token" value="fNJuvAZuslsL2a6zAHkfkMzMMlAhD5PYVZiCbmwr">
                     <div class="mb-3 ">
