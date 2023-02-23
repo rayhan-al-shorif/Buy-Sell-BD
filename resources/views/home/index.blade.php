@@ -14,6 +14,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slider-pro/1.6.2/css/slider-pro.min.css"/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slider-pro/1.6.2/js/jquery.sliderPro.min.js"></script>
 <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+
 {{-- <link rel="stylesheet" type="text/css" href="{{asset('web/assets/slider-pro/examples.css')}}" media="screen" /> --}}
 {{-- <script type="text/javascript" src="{{asset('web/assets/slider-pro/jquery.sliderPro.min.js')}}"></script> --}}
 @endsection
@@ -26,16 +27,6 @@
 @include('home._partials.about_ceo')
 @include('home._partials.service')
 @include('home._partials.contact')
-
-{{-- @include('home._partials.slider') --}}
-{{-- @include('home._partials.about') --}}
-{{-- @include('home._partials.what-we-do') --}}
-{{-- @include('home._partials.service') --}}
-{{-- @include('home._partials.about_sir') --}}
-{{-- @include('home._partials.contact') --}}
-{{-- @include('home._partials.footer') --}}
-{{-- @include('home._partials.settings') --}}
-{{-- @include('home._partials.social') --}}
 @endsection
 @push('scripts')
 <script src="{{ asset('js/home.js') }}"></script>
