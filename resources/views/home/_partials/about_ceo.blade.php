@@ -2,7 +2,7 @@
     <div class="container">
         <div class="title">
             <h3>RIZ Event</h3>
-            <p class="text-justify">Buysellbd is a personalized service for buying and selling Club Membership of Exclusive Clubs. Gaining access to a Club like Dhaka Club, Gulshan Club, Banani Club, Uttara Club are very exclusive and time consuming. On the other hand finding
+            <p class="text-justify mb-3">Buysellbd is a personalized service for buying and selling Club Membership of Exclusive Clubs. Gaining access to a Club like Dhaka Club, Gulshan Club, Banani Club, Uttara Club are very exclusive and time consuming. On the other hand finding
             someone eligible to handover existing membership is sometime very difficult. BuySellBD brings the only exclusive
             platform to make these transactions easier.</p>
         </div>
@@ -18,7 +18,7 @@
                 <div class="iso_text">
                     <div class="section_heading3">
                         <h4>About Rizwan Bin Farouq</h4>
-                        <p class="text-justify">
+                        <p class="text-justify mb-3">
                             Masters in Finance from the University of Dhaka 1982. 18 years of extensive experience in Banking & Financial Services industry, mostly in Hong Kong.
                             Chairman of Stock Broking House (First Capital Securities Ltd), and Real Estate Developer Company (Urban Design And
                             Development Ltd), Managing Director of Software Development Company (Axiom Technologies Ltd.), Managing Director of a
@@ -68,10 +68,12 @@
                             </ul>
                         </div>
                     </p>
-                    <p class="text-justify">
-                        <h4>About Riz Events</h4>
-                        RIZ Events is a Sports and Entertainment Marketing Company in Bangladesh working since 2005 with the sole motto of promoting sports and entertainment in Bangladesh.
-                        Over the years, RIZ Events has executed many sports & entertainment events successfully, such as Cricket, Golf, Beauty Pageant, Fashion Show & Corporate Event, etc.
+                    <h4>About Riz Events</h4>
+                    <p class="text-justify riz_events">
+                        RIZ Events is a Sports and Entertainment Marketing Company in Bangladesh working since 2005 with the sole motto of
+                        promoting sports and entertainment in Bangladesh.
+                        Over the years, RIZ Events has executed many sports & entertainment events successfully, such as Cricket, Golf, Beauty
+                        Pageant, Fashion Show & Corporate Event, etc.
                         Mr. Rizwan Bin Farouq, with his strong ideals and business intellects, sits at the head of RIZ Events as the Chairman.
                         Mr. Rayid Isaam Farouq performs the role of Chief Executive Officer with determination to run the business and maintain
                         relationship with our vast array of partners from both home and abroad.
