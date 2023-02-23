@@ -474,8 +474,8 @@ div.success_menu ul.common_slider_class li {
     z-index: -1;
 }
 .banner_img .homebanner-thumb {
-    border-radius: 35px;
-    border: 10px solid #fff;
+    border-radius: 15px;
+    /* border: 10px solid #fff; */
 }
 .banner_img .plus {
     position: absolute;
