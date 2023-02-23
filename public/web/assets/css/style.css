@@ -3920,7 +3920,6 @@ form.student_form select {
 }
 .iso_text p {
     line-height: 28px;
-    max-width: 563px;
 }
 .iso_text p span {
     display: block;
@@ -4225,7 +4224,7 @@ form.student_form .form_heading {
     border: 1px solid transparent;
     font-family: Hind Siliguri;
     color: #fff;
-    background: linear-gradient(214.38deg, #ff8079 -2.24%, #ff1e1e 59.38%);
+    background: linear-gradient(214.38deg, #73d5ff -2.24%, #15A2DD 59.38%);
     border-radius: 10px;
     text-align: center;
     -webkit-border-radius: 10px;
@@ -4269,7 +4268,7 @@ form.student_form .form_heading {
 }
 .office_address_main .address_text h3 {
     font-weight: 600;
-    color: #ff1e1e;
+    color: #14A2DD;
 }
 .office_address_main .address_text ul li, .office_address_main .phone_number ul li a {
     color: #342b27;
@@ -4283,7 +4282,7 @@ form.student_form .form_heading {
     padding-top: 4px;
 }
 .office_address_main .address_text p a {
-    color: #ff1e1e;
+    color: #14A2DD;
     font-family: Hind;
     font-size: 15px;
     font-weight: 600;
@@ -4718,9 +4717,9 @@ form.student_form .form_heading {
     transition: .3s linear;
 }
 .pagination_btn ul li a.active, .pagination_btn ul li a:hover {
-    background: linear-gradient(214.38deg, #ff8079 -2.24%, #ff1e1e 59.38%);
+    background: linear-gradient(214.38deg, #84daff -2.24%, #14A2DD 59.38%);
     color: #fff;
-    border: 1.5px solid #ff1e1e;
+    border: 1.5px solid #14A2DD;
 }
 #blog_dtails_main {
     padding-top: 63px;
@@ -4730,7 +4729,7 @@ form.student_form .form_heading {
     padding-bottom: 21px;
 }
 #blog_dtails_main .blog_dtails .heading h3 {
-    color: #ff1e1e;
+    color: #14A2DD;
     font-family: Hind Siliguri;
     font-size: 20px;
     font-weight: 500;
@@ -4965,7 +4964,7 @@ form.student_form .form_heading {
 }
 .accordion-button:not(.collapsed) {
     background: 0 0;
-    color: #ff1e1e;
+    color: #14A2DD;
 }
 .accordion-button::after {
     background-image: url("../images/plus-icon.png");
@@ -5118,7 +5117,7 @@ body  {
 
    height:  12px;
 
-   background:  #FF1E1E;
+   background:  #14A2DD;
 
    position:  absolute;
 

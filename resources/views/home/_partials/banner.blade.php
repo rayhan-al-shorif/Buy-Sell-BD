@@ -18,7 +18,7 @@
                                 customer loy- alty, build a community, and generate recurring revenue for businesses. Whether you are a business owner
                                 or a customer, membership services can offer an exceptional value proposition.
                             </span>
-                            <a href="#contact_us" class="browse_btn sal-animate" data-sal-delay="300" data-sal-duration="800"
+                            <a href="#contact_us" class="browse_btn mt-3 sal-animate" data-sal-delay="300" data-sal-duration="800"
                                 data-sal-easing="ease">Contact Us &nbsp;<i class="fa-solid fa-comment"></i>
                             </a>
                         </div>
@@ -50,7 +50,7 @@
                                 or a customer, membership services can offer an exceptional value proposition.
                             </span>
                             <p></p>
-                            <a href="#contact_us" class="browse_btn sal-animate" data-sal-delay="300" data-sal-duration="800"
+                            <a href="#contact_us" class="browse_btn mt-3 sal-animate" data-sal-delay="300" data-sal-duration="800"
                                 data-sal-easing="ease">Contact Us &nbsp;<i class="fa-solid fa-comment"></i>
                             </a>
                         </div>

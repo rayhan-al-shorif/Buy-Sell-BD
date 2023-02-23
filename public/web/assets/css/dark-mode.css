@@ -34,4 +34,13 @@
 .dark-mode .main_menu li.nav-item a.nav-link{
     color: #26A9E0!important;
 }
+.dark-mode .title h3 {
+    color: #ffffff;
+}
+
+.dark-mode #iso{
+    background-color: #111111;
+    color: #ffffff;
+}
+
 

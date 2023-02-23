@@ -26,7 +26,7 @@
                             Entertain Company in Bangladesh (RIZ Events). The strategic planner and one of the founders Director of Chittagong Stock
                             Exchange. Also Chairman, Executive Committee and Board Member of Duke of Edinburgh’s Award Foundation in Bangladesh. UK
                             Royal Family trust for global youth development.
-                            <div class="w-75 justify">
+                            <div class="text-justify">
                                 <ul class="chairman">
                                     <li>Chairman of RIZ Events (Sports and entertainment Marketing Company)</li>
                                     <li>Chairman of First Capital Securities Ltd. (Stock Brokerage House)</li>

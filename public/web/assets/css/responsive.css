@@ -1376,8 +1376,8 @@
     }
     .pg_banner_text > h1 span {
         font-size: 31px;
-        background: #ff1e1e;
-        background: -webkit-linear-gradient(left, #e4655e, #ff1e1e);
+        background: #14A2DD;
+        background: -webkit-linear-gradient(left, #7bd7ff, #14A2DD);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -1787,6 +1787,12 @@
     }
 }
 @media (max-width: 575.98px) {
+
+    #iso .chairman{
+        text-align: justify;
+    }
+
+
     #all_blog .dots_victor,
     #all_blog .pagination_btn,
     #topbar,
@@ -1915,7 +1921,7 @@
     .slick-slider .nextarrow:hover,
     .slick-slider .prevarrow:hover {
         color: #fff;
-        background-color: #ff1e1e;
+        background-color: #14A2DD;
     }
     #alamin {
         margin-top: -50px;
@@ -2416,8 +2422,8 @@
     }
     .pg_banner_text > h1 span {
         font-size: 31px;
-        background: #ff1e1e;
-        background: -webkit-linear-gradient(left, #e4655e, #ff1e1e);
+        background: #14A2DD;
+        background: -webkit-linear-gradient(left, #80d9ff, #14A2DD);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
