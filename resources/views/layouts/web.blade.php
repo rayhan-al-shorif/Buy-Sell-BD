@@ -101,10 +101,18 @@
                  $(this).find('.fa-moon').toggleClass('d-none');
                  $(this).find('.fa-sun').toggleClass('d-none');
                  $("body").toggleClass('dark-mode');
-                 let data = {
+                let data = "";
+                 if($("body").hasClass('dark-mode')){
+                     data = {
+                        name: "dark",
+                        color: "dark-mode"
+                      };
+                 }else{
+                    data = {
                     name: "dark",
-                    color: "dark-mode"
-                  };
+                    color: "light-mode"
+                    };
+                 }
                 axios.post("/set-cookie", data);
             });
         });
