@@ -42,24 +42,16 @@
     `;
 
     $(document).ready(function(){
-        $("#type").html('<span class="description"></span><span class="cursor"></span>');
-        description = $("#type").find(".description");
-        cursor = $("#type").find(".cursor");
-        cursor.html('|');
-        typeWriter();
+    var app = document.getElementById('type');
+
+    var typewriter = new Typewriter(app, {
+    loop: true
     });
-    function typeWriter() {
-        if (i < text.length)
-        {
-            beforeHtml = description.html();
-            description.html(`${beforeHtml}${text.charAt(i)}`);
-            i++;
-            setTimeout(typeWriter, speed);
-        }else{
-            target.html('');
-            text = "loremsdcjn sadjncsnk dancskda ncknkn";
-            i = 0;
-            typeWriter();
-        }
-    }
+
+    typewriter.typeString(text)
+    .pauseFor(2500)
+    .deleteAll()
+    .start();
+        });
+
 </script>
