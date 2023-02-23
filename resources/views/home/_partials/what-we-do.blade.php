@@ -24,7 +24,7 @@
             <a href="#">
                 <div class="course_single_item what_we_do">
                     <div class="course_image"><img class="img-fluid w-100"
-                            src="https://picsum.photos/1080/720" alt="ওয়েব ডিজাইন"
+                            src="https://picsum.photos/1080/720" alt="desing"
                             loading="lazy"></div>
                     <div class="course_text">
                         <h3>Do It..</h3>
