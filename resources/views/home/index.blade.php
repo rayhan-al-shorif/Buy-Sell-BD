@@ -10,7 +10,7 @@
 
 
 {{-- Slider pro --}}
-<link rel="stylesheet" href="{{asset('web/assets/css/dark-mode.css')}}">
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slider-pro/1.6.2/css/slider-pro.min.css"/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slider-pro/1.6.2/js/jquery.sliderPro.min.js"></script>
 <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>

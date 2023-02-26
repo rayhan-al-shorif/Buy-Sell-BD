@@ -60,7 +60,7 @@
             <div class="bars">
                 <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
                     aria-controls="offcanvasExample">
-                    <img src="{{asset('web/assets/images/toggole_menu.png')}}" alt="icon">
+                    <i class="fa-solid fa-bars sideBarIcon"></i>
                 </a>
             </div>
             <div class="logo">
@@ -72,7 +72,7 @@
 
         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
             aria-labelledby="offcanvasExampleLabel"
-            style="background: #14a2dd no-repeat center; background-size: cover;">
+            style="background: #020B0F no-repeat center; background-size: cover;">
             <div class="offcanvas-body">
                 <div class="offcanvas-header justify-content-end">
                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
