@@ -10,7 +10,7 @@
         <div class="row" style="margin: 0 10px;">
             <div class="col-12 milestone_slider_bg">
                 <div class="milestone_slider slick-initialized slick-slider">
-                    <i class="fa fa-angle-left prevarrow slick-arrow" style="display: block;"></i>
+                    <i class="fa fa-angle-left prevarrow slick-arrow about_slider_arrow" style="display: block;"></i>
                     <div class="owl-carousel owl-theme owl-loaded about_slider">
                         <div class="owl-stage-outer">
                             <div class="owl-stage">
@@ -32,10 +32,11 @@
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
-                    <i class="fa fa-angle-right nextarrow slick-arrow" style="display: block;"></i>
+                    <i class="fa fa-angle-right nextarrow slick-arrow about_slider_arrow" style="display: block;"></i>
                 </div>
             </div>
         </div>
@@ -66,6 +67,7 @@
             }
         });
 
+
         $(".owl-nav").addClass("d-none");
         $(".prevarrow").on('click',function(){
             $(".about_slider .owl-prev").click();
@@ -73,5 +75,7 @@
         $(".nextarrow").on('click',function(){
             $(".about_slider .owl-next").click();
         });
+        let hasDisabled = $(".about_slider .owl-dots").hasClass("disabled");
+        hasDisabled? $(".about_slider_arrow").addClass('d-none') : $(".about_slider_arrow").removeClass('d-none');
     });
 </script>
