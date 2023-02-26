@@ -43,6 +43,15 @@ a, a:hover {
     font-family: "Noto Sans Bengali", sans-serif;
     src: url(../ruposhi-bangla/RuposhiBanglaUnicode.ttf);
 }
+/* Logo */
+
+.light-mode-logo{
+    display: block;
+}
+.dark-mode-logo{
+    display: none;
+}
+
 ol, ul {
     list-style: none;
 }

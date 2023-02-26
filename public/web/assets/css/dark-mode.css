@@ -3,6 +3,14 @@
     background: #000000;
 }
 
+/* Logo */
+
+.dark-mode .light-mode-logo{
+    display: none;
+}
+.dark-mode .dark-mode-logo{
+    display: block;
+}
 /* Side Bar */
 
 /* background: #020B0F no-repeat center; background-size: cover; */

@@ -20,10 +20,9 @@
     <nav id="navbar" class="d-none d-lg-block  navbar navbar-expand-lg navbar-light">
         <div class="container">
             <a href="/" data-sal="zoom-in" data-sal-delay="300" data-sal-duration="800" data-sal-easing="ease"
-                class="navbar-brand sal-animate" style="
-    margin: 0 -12px;
-">
-                <img src="{{asset('web/assets/images/logo.png')}}" style="max-height: 52px" alt="Logo">
+                class="navbar-brand sal-animate" style="margin: 0 -12px;">
+                <img src="{{asset('web/assets/images/logo/light-mode.png')}}" class="light-mode-logo" style="max-height: 52px" alt="Logo">
+                <img src="{{asset('web/assets/images/logo/dark-mode.png')}}" class="dark-mode-logo" style="max-height: 52px" alt="Logo">
             </a>
             <div class="navbar-collapse collapse">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 main_menu navbar-nav">
@@ -73,7 +72,9 @@
             </div>
             <div class="logo">
                 <a href="/">
-                    <img src="{{asset('web/assets/images/logo.png')}}" alt="Logo">
+                    <img src="{{asset('web/assets/images/logo/light-mode.png')}}" class="light-mode-logo" style="max-height: 52px"
+                        alt="Logo">
+                    <img src="{{asset('web/assets/images/logo/dark-mode.png')}}" class="dark-mode-logo" style="max-height: 52px" alt="Logo">
                 </a>
             </div>
         </div>
