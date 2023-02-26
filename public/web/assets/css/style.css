@@ -45,12 +45,12 @@ a, a:hover {
 }
 /* Logo */
 
-.light-mode-logo{
+/* .light-mode-logo{
     display: block;
 }
 .dark-mode-logo{
     display: none;
-}
+} */
 
 ol, ul {
     list-style: none;

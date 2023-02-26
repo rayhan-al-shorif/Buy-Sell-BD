@@ -84,10 +84,18 @@
                     $(this).find('.fa-moon').removeClass('d-none');
                     $(this).find('.fa-sun').addClass('d-none');
                     $("body").addClass('dark-mode');
+
+                    // logo
+
+                    $(".light-mode-logo").addClass("d-none");
+                    $(".dark-mode-logo").removeClass("d-none");
                 }else{
                     $(this).find('.fa-moon').addClass('d-none');
                     $(this).find('.fa-sun').removeClass('d-none');
                     $("body").removeClass('dark-mode');
+
+                    $(".light-mode-logo").removeClass("d-none");
+                    $(".dark-mode-logo").addClass("d-none");
                 }
             });
 
@@ -95,13 +103,19 @@
                  $(this).find('.fa-moon').toggleClass('d-none');
                  $(this).find('.fa-sun').toggleClass('d-none');
                  $("body").toggleClass('dark-mode');
+                //  $(".dark-mode-logo").toggleClass("d-none");
+                //  $(".ligh-mode-logo").toggleClass("d-none");
                 let data = "";
                  if($("body").hasClass('dark-mode')){
+                    $(".light-mode-logo").addClass("d-none");
+                    $(".dark-mode-logo").removeClass("d-none");
                      data = {
                         name: "dark",
                         color: "dark-mode"
                       };
                  }else{
+                    $(".light-mode-logo").removeClass("d-none");
+                    $(".dark-mode-logo").addClass("d-none");
                     data = {
                     name: "dark",
                     color: "light-mode"

@@ -22,7 +22,7 @@
             <a href="/" data-sal="zoom-in" data-sal-delay="300" data-sal-duration="800" data-sal-easing="ease"
                 class="navbar-brand sal-animate" style="margin: 0 -12px;">
                 <img src="{{asset('web/assets/images/logo/light-mode.png')}}" class="light-mode-logo" style="max-height: 52px" alt="Logo">
-                <img src="{{asset('web/assets/images/logo/dark-mode.png')}}" class="dark-mode-logo" style="max-height: 52px" alt="Logo">
+                <img src="{{asset('web/assets/images/logo/dark-mode.png')}}" class="dark-mode-logo d-none" style="max-height: 52px" alt="Logo">
             </a>
             <div class="navbar-collapse collapse">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 main_menu navbar-nav">
@@ -71,10 +71,12 @@
                 </a>
             </div>
             <div class="logo">
+
                 <a href="/">
                     <img src="{{asset('web/assets/images/logo/light-mode.png')}}" class="light-mode-logo" style="max-height: 52px"
                         alt="Logo">
-                    <img src="{{asset('web/assets/images/logo/dark-mode.png')}}" class="dark-mode-logo" style="max-height: 52px" alt="Logo">
+                    <img src="{{asset('web/assets/images/logo/dark-mode.png')}}" class="dark-mode-logo d-none" style="max-height: 52px"
+                        alt="Logo">
                 </a>
             </div>
         </div>
@@ -122,9 +124,17 @@
 </header>
 <script>
     $(function(){
-        $(window).scroll(function(){
-        var aTop = $('.main_menu').height();
-            console.log($(this).scrollTop());
-        });
+        // $(".dark-mode-logo").addClass("d-none");
+        // $(window).scroll(function(){
+        // var main_menu = $('.main_menu').height();
+        // if($(this).scrollTop() > 105 && $(this).scrollTop() < 110){
+        //     $(".dark-mode .dark-mode-logo").css("display: none;");
+        //     // $(".dark-mode-logo").css("display: block;");
+        //     // $(".light-mode-logo").css("display: none;");
+        //     $(".dark-mode .light-mode-logo").css("display: block;");
+        // }else{
+
+        // }
+        // });
     });
 </script>
