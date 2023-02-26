@@ -37,71 +37,11 @@
                                                 data-sal-duration="800" data-sal-easing="ease">
                                                 <a href="#">
                                                     <div class="course_single_item what_we_do">
-                                                        <div class="course_image"><img class="img-fluid w-100" src="https://picsum.photos/1080/720" alt="image"
+                                                        <div class="course_image"><img class="img-fluid w-100" src="{{asset('web/assets/images/services/membarship.jpg')}}" alt="image"
                                                                 loading="lazy"></div>
                                                         <div class="course_text">
-                                                            <h3>Do It..</h3>
-                                                            <p>With In 7 Days!!!</p>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="owl-item">
-                                            <div class="pb-6 course-padding-area sal-animate" data-sal="slide-right"
-                                                data-sal-duration="800" data-sal-easing="ease">
-                                                <a href="#">
-                                                    <div class="course_single_item what_we_do">
-                                                        <div class="course_image"><img class="img-fluid w-100" src="https://picsum.photos/1080/720" alt="image"
-                                                                loading="lazy"></div>
-                                                        <div class="course_text">
-                                                            <h3>Do It..</h3>
-                                                            <p>With In 7 Days!!!</p>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="owl-item">
-                                            <div class="pb-6 course-padding-area sal-animate" data-sal="slide-right"
-                                                data-sal-duration="800" data-sal-easing="ease">
-                                                <a href="#">
-                                                    <div class="course_single_item what_we_do">
-                                                        <div class="course_image"><img class="img-fluid w-100" src="https://picsum.photos/1080/720" alt="image"
-                                                                loading="lazy"></div>
-                                                        <div class="course_text">
-                                                            <h3>Do It..</h3>
-                                                            <p>With In 7 Days!!!</p>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="owl-item">
-                                            <div class="pb-6 course-padding-area sal-animate" data-sal="slide-right"
-                                                data-sal-duration="800" data-sal-easing="ease">
-                                                <a href="#">
-                                                    <div class="course_single_item what_we_do">
-                                                        <div class="course_image"><img class="img-fluid w-100" src="https://picsum.photos/1080/720" alt="image"
-                                                                loading="lazy"></div>
-                                                        <div class="course_text">
-                                                            <h3>Do It..</h3>
-                                                            <p>With In 7 Days!!!</p>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="owl-item">
-                                            <div class="pb-6 course-padding-area sal-animate" data-sal="slide-right"
-                                                data-sal-duration="800" data-sal-easing="ease">
-                                                <a href="#">
-                                                    <div class="course_single_item what_we_do">
-                                                        <div class="course_image"><img class="img-fluid w-100" src="https://picsum.photos/1080/720" alt="image"
-                                                                loading="lazy"></div>
-                                                        <div class="course_text">
-                                                            <h3>Do It..</h3>
-                                                            <p>With In 7 Days!!!</p>
+                                                            <h3>Club Membership Buy & Sale of most prestigious Clubs in BD.</h3>
+                                                            <p></p>
                                                         </div>
                                                     </div>
                                                 </a>
@@ -163,10 +103,10 @@
                                                 <a href="#">
                                                     <div class="course_single_item what_we_do">
                                                         <div class="course_image"><img class="img-fluid w-100"
-                                                                src="https://picsum.photos/1080/720" alt="image" loading="lazy"></div>
+                                                                src="{{asset('web/assets/images/services/property.png')}}" alt="image" loading="lazy"></div>
                                                         <div class="course_text">
-                                                            <h3>Do It..</h3>
-                                                            <p>With In 7 Days!!!</p>
+                                                            <h3>House</h3>
+                                                            <p></p>
                                                         </div>
                                                     </div>
                                                 </a>
@@ -178,10 +118,25 @@
                                                 <a href="#">
                                                     <div class="course_single_item what_we_do">
                                                         <div class="course_image"><img class="img-fluid w-100"
-                                                                src="https://picsum.photos/1080/720" alt="image" loading="lazy"></div>
+                                                                src="{{asset('web/assets/images/services/property.png')}}" alt="image" loading="lazy"></div>
                                                         <div class="course_text">
-                                                            <h3>Do It..</h3>
-                                                            <p>With In 7 Days!!!</p>
+                                                            <h3>Flats</h3>
+                                                            <p></p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="owl-item">
+                                            <div class="pb-6 course-padding-area sal-animate" data-sal="slide-right" data-sal-duration="800"
+                                                data-sal-easing="ease">
+                                                <a href="#">
+                                                    <div class="course_single_item what_we_do">
+                                                        <div class="course_image"><img class="img-fluid w-100"
+                                                                src="{{asset('web/assets/images/services/property.png')}}" alt="image" loading="lazy"></div>
+                                                        <div class="course_text">
+                                                            <h3>Land</h3>
+                                                            <p></p>
                                                         </div>
                                                     </div>
                                                 </a>
