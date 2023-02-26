@@ -17,57 +17,16 @@
                                 <div class="owl-item">
                                     <div class="row g-0 align-items-center">
                                         <div class="col-md-5"><img class="card-img-top img-fluid"
-                                                src="http://b2m-tech.com/wp-content/uploads/2020/01/7.jpg" alt="Company">
+                                                src="{{asset('web/assets/images/about/b2m.png')}}" alt="Company">
                                         </div>
                                         <div class="col-md-7">
                                             <div class="card-body">
-                                                <div class="card-title h5">Lorem ipsum dolor </div>
+                                                <div class="card-title h5">Welcome to B2M</div>
                                                 <p class="card-text">
-                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum blanditiis, explicabo
-                                                    minima vel libero
-                                                    dicta quam id distinctio accusantium, voluptatibus non odio dolorem qui asperiores,
-                                                    saepe odit quisquam
-                                                    a error.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item">
-                                    <div class="row g-0 align-items-center">
-                                        <div class="col-md-5"><img class="card-img-top img-fluid"
-                                                src="http://b2m-tech.com/wp-content/uploads/2020/01/7.jpg"
-                                                alt="Basis Outsourcing Award For Best Outsourcing Company">
-                                        </div>
-                                        <div class="col-md-7">
-                                            <div class="card-body">
-                                                <div class="card-title h5">Lorem ipsum dolor </div>
-                                                <p class="card-text">
-                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum blanditiis, explicabo
-                                                    minima vel libero
-                                                    dicta quam id distinctio accusantium, voluptatibus non odio dolorem qui asperiores,
-                                                    saepe odit quisquam
-                                                    a error.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item">
-                                    <div class="row g-0 align-items-center">
-                                        <div class="col-md-5"><img class="card-img-top img-fluid"
-                                                src="http://b2m-tech.com/wp-content/uploads/2020/01/7.jpg"
-                                                alt="Basis Outsourcing Award For Best Outsourcing Company">
-                                        </div>
-                                        <div class="col-md-7">
-                                            <div class="card-body">
-                                                <div class="card-title h5">Lorem ipsum dolor </div>
-                                                <p class="card-text">
-                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum blanditiis, explicabo
-                                                    minima vel libero
-                                                    dicta quam id distinctio accusantium, voluptatibus non odio dolorem qui asperiores,
-                                                    saepe odit quisquam
-                                                    a error.
+                                                    Established in 2006, B2M Technologies Ltd is one of the leading value-added mobile content services and application
+                                                    provider in Bangladesh. Being connected to all Telco’s in the country having subscriber base of 46 million, it is
+                                                    dedicated in providing first class entertainment, informative and relevant mobile content to the fastest growing mobile
+                                                    market.
                                                 </p>
                                             </div>
                                         </div>

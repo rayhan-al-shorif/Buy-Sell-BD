@@ -81,7 +81,7 @@
                     <div class="col-lg-5 mb-3">
                         <div class="banner_img">
                             <img class="img-fluid homebanner-thumb video_thumb sal-animate" id="bannerImage"
-                            src="{{asset('web/assets/images/Sliders/ticket.png')}}"
+                            src="{{asset('web/assets/images/Sliders/property.png')}}"
                                 alt="Home Banner| Icon">
                         </div>
                     </div>
