@@ -50,7 +50,7 @@
                 <div class="section_heading3">
                     <p class="text-justify">
                         <h4>Memberships</h4>
-                        <div class="w-75 justify">
+                        <div class="w-100 justify">
                             <ul class="chairman">
                             <li>Member of Dhaka Club</li>
                             <li>Member of Kurmitola Golf Club</li>

@@ -119,5 +119,11 @@
     </div>
     <!-- OffCanvas Menu End-->
 </header>
-<style>
-</style>
+<script>
+    $(function(){
+        $(window).scroll(function(){
+        var aTop = $('.main_menu').height();
+            console.log($(this).scrollTop());
+        });
+    });
+</script>

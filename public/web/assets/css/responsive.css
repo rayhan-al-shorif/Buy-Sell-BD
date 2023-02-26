@@ -1798,6 +1798,9 @@
     }
 }
 @media (max-width: 575.98px) {
+    .w-75{
+        width: 100%!important;
+    }
      .bars>.btn{
         font-size: 18px !important;
     }

@@ -15,7 +15,11 @@ $(document).ready(function () {
     handleFont();
     handleTopAndHeaderColor();
     handleReadMore();
+    // handleNavbarAutoHoverInScroll();
+
 });
+
+
 
 function handleHomeSliderCarousel() {
     $('.home-slider').owlCarousel({
