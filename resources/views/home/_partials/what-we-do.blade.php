@@ -48,4 +48,5 @@
             </a>
         </div>
     </div>
+    <span id="riz_event" class="mb-4"></span>
 </div>

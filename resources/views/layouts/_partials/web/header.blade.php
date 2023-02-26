@@ -41,7 +41,15 @@
                     </li>
                     <li class="nav-item sal-animate" data-sal="slide-right" data-sal-delay="300" data-sal-duration="800"
                         data-sal-easing="ease">
-                        <a href="service" data-rr-ui-event-key="service" class="nav-link">Service</a>
+                        <a href="#riz_event" class="nav-link">RIZ Event</a>
+                    </li>
+                    <li class="nav-item sal-animate" data-sal="slide-right" data-sal-delay="300" data-sal-duration="800"
+                        data-sal-easing="ease">
+                        <a href="#service" data-rr-ui-event-key="service" class="nav-link">Service</a>
+                    </li>
+                    <li class="nav-item sal-animate" data-sal="slide-right" data-sal-delay="300" data-sal-duration="800"
+                        data-sal-easing="ease">
+                        <a href="#contactUs" data-rr-ui-event-key="contactUs" class="nav-link">Contact Us</a>
                     </li>
                     <div class="navbar_btn nav-item">
                         <span class="sal-animate dark-mode">
@@ -82,13 +90,22 @@
                 </div>
                 <ul class="justify-content-center flex-column text-center ms-auto mb-2 mb-lg-0 main_menu navbar-nav">
                     <li class="nav-item">
-                        <a href="home" data-rr-ui-event-key="home" class="nav-link">Home</a>
+                        <a href="/" data-rr-ui-event-key="home" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" data-rr-ui-event-key="#" class="nav-link">About Us</a>
+                        <a href="#about" data-rr-ui-event-key="#" class="nav-link">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" data-rr-ui-event-key="#" class="nav-link">Contact</a>
+                        <a href="#whatWeDo" data-rr-ui-event-key="#" class="nav-link">What we do?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#riz_event" data-rr-ui-event-key="#" class="nav-link">Riz Event</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#service" data-rr-ui-event-key="#" class="nav-link">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contactUs" data-rr-ui-event-key="#" class="nav-link">Contact</a>
                     </li>
                     <div class="navbar_btn text-center nav-item">
                         <span class="sal-animate dark-mode">
