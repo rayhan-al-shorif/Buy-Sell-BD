@@ -70,13 +70,15 @@
             </div>
         </div>
 
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
-            aria-labelledby="offcanvasExampleLabel"
-            style="background: #020B0F no-repeat center; background-size: cover;">
+        <div class="offcanvas offcanvas-start offcanvas-sideBar" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
             <div class="offcanvas-body">
                 <div class="offcanvas-header justify-content-end">
-                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                        aria-label="Close"></button>
+
+                    <span class="btn btn-sm text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </span>
                 </div>
                 <ul class="justify-content-center flex-column text-center ms-auto mb-2 mb-lg-0 main_menu navbar-nav">
                     <li class="nav-item">
@@ -89,8 +91,10 @@
                         <a href="#" data-rr-ui-event-key="#" class="nav-link">Contact</a>
                     </li>
                     <div class="navbar_btn text-center nav-item">
-                        <a href="#">
-                            <img src="#" alt="icon"><i class="fa fa-angle-down ps-2"></i></a>
+                        <span class="sal-animate dark-mode">
+                            <i class="fa-solid fa-moon"></i>
+                            <i class="fa-solid fa-sun d-none"></i>
+                        </span>
                     </div>
                 </ul>
             </div>

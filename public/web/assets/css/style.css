@@ -268,8 +268,15 @@ div.success_menu ul.common_slider_class li {
     background-size: cover;
     background-position: center center;
 }
+.offcanvas-header .btn{
+    padding: 5px;
+}
+.offcanvas-header .btn i{
+    font-size: 22px;
+}
+
 .offcanvas-start {
-    width: 80vw;
+    width: 50%;
 }
 .sm_menu {
     width: 100%;
@@ -4106,6 +4113,16 @@ form.student_form select {
     border-left: #ffffff;
     border-bottom: 4px #25A9E0  solid;
     font-weight: 600;
+}
+
+.serviceTab .nav-link{
+    color: #000000!important;
+}
+
+/* Side Bar */
+
+.offcanvas-sideBar{
+    background: #E1F3FB no-repeat center; background-size: cover;
 }
 
 
