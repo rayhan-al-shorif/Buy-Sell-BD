@@ -20,7 +20,7 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="copy_social_link" data-sal="slide-right" data-sal-delay="300"
                             data-sal-duration="800" data-sal-easing="ease">
-                            <a target="_blank" href="https://www.facebook.com/CreativeITInstitute">
+                            <a target="_blank" href="#">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f"
                                     class="svg-inline--fa fa-facebook-f " role="img" xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 320 512">
@@ -29,7 +29,7 @@
                                     </path>
                                 </svg>
                             </a>
-                            <a target="_blank" href="https://www.linkedin.com/company/creativeitinstitute/mycompany/">
+                            <a target="_blank" href="#">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in"
                                     class="svg-inline--fa fa-linkedin-in " role="img" xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 448 512">
@@ -38,7 +38,7 @@
                                     </path>
                                 </svg>
                             </a>
-                            <a target="_blank" href="https://www.youtube.com/c/CreativeITInstitute">
+                            <a target="_blank" href="#">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube"
                                     class="svg-inline--fa fa-youtube " role="img" xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 576 512">
@@ -47,7 +47,7 @@
                                     </path>
                                 </svg>
                             </a>
-                            <a target="_blank" href="https://instagram.com/creativeitinstitutebd?igshid=YmMyMTA2M2Y=">
+                            <a target="_blank" href="#">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram"
                                     class="svg-inline--fa fa-instagram " role="img" xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 448 512">
